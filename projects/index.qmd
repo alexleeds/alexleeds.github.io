@@ -1,0 +1,14 @@
+---
+title: "Projects"
+listing:
+    contents: 
+      - '*.qmd'
+    sort: date asc
+    type: default
+    categories: true
+    sort-ui: false
+    filter-ui: false
+    feed: true
+page-layout: full
+title-block-bannerrR: false
+---

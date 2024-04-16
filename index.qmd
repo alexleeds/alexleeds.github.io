@@ -1,0 +1,47 @@
+---
+title: "Alex Leeds"
+pagetitle: "Alex Leeds"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/alexleeds/
+        - icon: twitter
+          text: Twitter
+          url: https://twitter.com/xanleeds
+        - icon: github
+          text: Github
+          url: https://github.com/alexleeds
+        - icon: instagram
+          text: Instagram
+          url: https://www.instagram.com/xanleeds/
+        - text: "{{< fa envelope >}} Email"
+          url: mailto:alex.leeds+website@gmail.com
+image: img/alex_profile_photo_zoomed.jpg
+comments: false
+
+page-layout: full
+---
+
+<script type='application/ld+json'> {"@context":"http://www.schema.org","@type":"person","name":"Alex Leeds","jobTitle":"CEO and co-founder, Sleuth","height":"72 inches","gender":"male","description":"Alex Leeds is a data scientist working at the intersection of AI/ML, strategy, and operations.","url":"https://alexleeds.github.com","image":"https://alexleeds.github.com/img/IMG_5986.jpeg","address":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY","postalCode":"10021","birthDate":"1980-06-29","birthPlace":"New York, NYC","memberOf":[{"@type":"Organization","name":"NYC AI hackers"}],"nationality":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"United States"}]}}
+</script>
+
+## Hello and welcome!
+
+I'm a product manager and data scientist who predicts (and sometimes designs) consumer behavior. I use a mix of experiments, human feedback, and computationally intensive methods to refine ads, pricing, monetization, market segmentation, and product/feature selection.
+
+Until April 2024, I was the CEO and Co-founder of [Sleuth](https://about.hellosleuth.com/). Sleuth was an app and website that provided running feedback to parents about their kids’ development using machine learning-based benchmarks for 250 topics. We had more than 60,000 parents contribute answers to 1.25 million questions between 2022 and 2023. 
+
+Before Sleuth, I managed data science teams at [Squarespace](https://www.squarespace.com/) and One Zero Capital and was a Data Scientist in Residence at [IDEO](https://www.ideo.com/). I have a BA from Yale University in Political Science and a PhD in a mix of economics, statistics, and applied psychology from Wharton Business School.
+
+## Personal life
+
+I live in New York City on the Upper East Side with my wife, daughter, and [two vocal cats](https://www.instagram.com/p/Bxz-7J6pzJs/).
+
+In my free time, I enjoy reading biographies, swimming (badly), and coding projects for pure entertainment (like [AI Debates](https://github.com/alexleeds/ai-debates/tree/main)).
+
+I created and (lightly) oversee a meetup called [NYC AI Hackers](https://www.meetup.com/ai-hackers/).
+
+Get in touch by [sending me a note](/mailto:alex.leeds+website@gmail.com). {{< fa feather-pointed >}}
+

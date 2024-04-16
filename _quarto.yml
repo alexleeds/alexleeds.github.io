@@ -1,0 +1,61 @@
+project:
+  type: website
+  # pre-render:
+    # - scripts/pre_canonicalise_tags.py
+resources:
+  - CNAME
+
+website:
+  site-url: "http://localhost:7347"
+  title: "Alex Leeds"
+  description: "Alex Leeds is a computational epidemiologist/data scientist working at the intersection of AI, epidemiology and public health."
+  navbar:
+    logo: img/house-solid.svg
+    right:
+      - href: writing
+        text: WRITING
+      - href: projects
+        text: PROJECTS
+      - href: https://about.hellosleuth.com/
+        text: SLEUTH
+  page-footer:
+    left: "(c) Alex Leeds, 2024–"
+  twitter-card: true
+  open-graph: true
+  google-analytics: "395640625"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    toc_smooth_scroll: true
+    toc_highlight: true
+    fig-align: center
+    include-in-header:
+      text: |
+        <script type='application/ld+json'>{"@context":"http://www.schema.org","@type":"person","name":"Alex Leeds",
+        "jobTitle":Product manager and data scientist","height":"72 inches","gender":"male",
+        "description":"Alex Leeds .","url":"https://alexleeds.gitihub.io",
+        "address":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY","postalCode":"10021","addressCountry":"United States"},
+        "birthDate":"1980-06-29","birthPlace":"New York, NY"
+        </script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('a[href^="http"]');
+            links.forEach(link => {
+              if (!link.href.includes(location.hostname)) {
+                link.target = '_blank';
+                // Optional: Add rel="noopener noreferrer" for security reasons
+                link.rel = 'noopener noreferrer';
+              }
+            });
+          });
+        </script>
+
+
+
+

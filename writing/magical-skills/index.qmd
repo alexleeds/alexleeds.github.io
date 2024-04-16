@@ -1,0 +1,58 @@
+---
+title: Magical Skills
+description: What if we rethink the limits of skills we don't really think much about?
+date: 2024-04-13
+categories:
+- skill acquistion
+- team performance
+image: pina_film.jpg
+bibliography: references.bib
+---
+
+Barbara Corcoran, founder of the Corcoran (real estate) Group, [recently tweeted](https://twitter.com/BarbaraCorcoran/status/953716121470939137), “The hardest lesson to learn is that you are more capable than you think you are.”
+
+I’ve often wondered about this: how do we hem ourselves in by our own expectations? 
+
+At a simplistic level, tons of research on [implicit beliefs](https://faculty.wcas.northwestern.edu/eli-finkel/documents/InPress_BurnetteOBoyleVanEppsPollackFinkel_PsychBull.pdf), [growth mindset](https://psycnet.apa.org/manuscript/2020-99903-019.pdf), and [underachievement](https://www.researchgate.net/profile/Martha-Carr-2/publication/38138977_Motivational_Components_of_Underachievement/links/54d3a5a10cf2b0c6146de654/Motivational-Components-of-Underachievement.pdf) explores the basic idea: If we believe we can’t learn or do something - or just that our skills in some domain are inherited rather than acquired - then we don’t learn it. 
+
+But I’m interested in another layer of this problem: opportunities we miss because *almost no one* believes that a skill is possible for any individual or group. What about the limits we impose from lack of imagination rather than from lack of self-confidence?
+
+## What “impossible” skills are actually possible?
+
+What if we lived in a world where long distance running had never been invented as a sport? Would we believe that a human could run 26 miles in under 4:36 seconds per mile? Probably not.
+
+What if we lived in a world where professional musicians didn't exist, and then imported Yuja Wang? Her performance would seem like magic: the memory of those hundreds of thousands of notes delivered with impossible control. 
+
+But there are abilities that most people would probably not imagine at all.
+
+- We can hold our breath for more than 20 minutes ([Wired article](https://www.wired.com/story/what-it-takes-to-hold-your-breath-for-24-minutes-yeah-its-a-thing/) and [Scientific American](https://www.scientificamerican.com/article/the-limits-of-breath-holding/)).
+
+- We can [perfectly recall 500 single-digit numbers](https://www.worldmemorychampionships.com/spoken-numbers/) having heard them listed only once.
+
+- Apollo Robbins can remove your watch [without your awareness](https://www.youtube.com/watch?v=Zkx-XzEkoHs) [even when you are trying to prevent him](https://www.newyorker.com/magazine/2013/01/07/a-pickpockets-tale). 
+
+The most extreme examples *are* due to rare talent as well as extreme effort. But a fraction of these performances is still outside the usual range of "believable."
+
+Could we do the same with slightly more practical skills? Paul Ekman made a science out of reading people’s emotions ([Emotions Revealed](https://www.amazon.com/Emotions-Revealed-Second-Recognizing-Communication/dp/0805083391)), for example. What could we do if we imagined other useful skills.
+
+Imagine if we collected thousands of video clips from YouTube of just people...
+
+- introducing themselves 
+- making persuasive arguments
+- interrupting other people
+- defending a belief
+- making jokes classified by style
+
+How are these done well? When do they fail? This is now a feasible AI project.
+
+## What could groups do?
+
+And what about groups? Most of our models for how people behave in social and work settings are based on limited scenarios and narrow comfort levels.
+
+What if we took the hours, focus, and energy of a five-star restaurant kitchen staff and expected Facebook software developers to perform similarly? I think some of them might actually die from exhaustion before the week was over.
+
+Could we change how people think about working as a team in professional settings? What if we really did cross software development with the skills/practical elements of other fields like restaurants, or sports, or concert music? What if we also tailored the workflows of different teams to more accurately reflect the kinds of outcomes t hey aim to produce?
+
+Jensen Huang [recently made this argument](https://www.acquired.fm/episodes/jensen-huang). He criticized engineering firms for adopting a generic pattern for organizational structure and functions. Similarly, I still see hospitals fighting (and failing) to overcome the departmental structure that has existed for decades. And many private equity firms still use approaches that Siegmund Warburg designed in the 1940s and 1950s.
+
+Our expectations for ourselves, for our professions, and for our societies are hide-bound. I’m not sure what to do about it, but I'm certain that we set our sights far too low.
