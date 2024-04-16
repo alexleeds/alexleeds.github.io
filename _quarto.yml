@@ -10,6 +10,7 @@ website:
   site-url: "https://alexleeds.com"
   title: "Alex Leeds"
   description: "Alex Leeds is a data scientist living in NYC"
+  favicon: img/letter_a_by_md_tanvirul_haque.jpg
   navbar:
     logo: img/house-solid.svg
     right:
@@ -20,7 +21,7 @@ website:
       - href: https://about.hellosleuth.com/
         text: SLEUTH
   page-footer:
-    left: "Made with Quarto"
+    left: 'Made with <a href="https://quarto.org/">Quarto</a>'
   twitter-card: true
   open-graph: true
 
