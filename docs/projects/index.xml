@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Alex Leeds</title>
-<link>https://alexleeds.github.io/projects/</link>
-<atom:link href="https://alexleeds.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://alexleeds.com/projects/</link>
+<atom:link href="https://alexleeds.com/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description>Alex Leeds is a data scientist living in NYC</description>
 <generator>quarto-1.4.537</generator>
 <lastBuildDate>Tue, 16 Apr 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Some Fun Projects</title>
   <dc:creator>Alex Leeds</dc:creator>
-  <link>https://alexleeds.github.io/projects/some-fun-projects/</link>
+  <link>https://alexleeds.com/projects/some-fun-projects/</link>
   <description><![CDATA[ 
 
 
@@ -38,7 +38,7 @@
 <section id="ai-debates" class="level3">
 <h3 class="anchored" data-anchor-id="ai-debates">AI debates</h3>
 <figure class="figure">
-<img src="https://alexleeds.github.io/projects/some-fun-projects/ai_visual_in_progress.jpg" width="350" class="figure-img">
+<img src="https://alexleeds.com/projects/some-fun-projects/ai_visual_in_progress.jpg" width="350" class="figure-img">
 <figcaption>
 Debate visual under development.
 </figcaption>
@@ -88,9 +88,9 @@ Debate visual under development.
   <category>AI debates</category>
   <category>AI chess</category>
   <category>Aethetic trends</category>
-  <guid>https://alexleeds.github.io/projects/some-fun-projects/</guid>
+  <guid>https://alexleeds.com/projects/some-fun-projects/</guid>
   <pubDate>Tue, 16 Apr 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://alexleeds.github.io/projects/some-fun-projects/ai_debate.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://alexleeds.com/projects/some-fun-projects/ai_debate.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

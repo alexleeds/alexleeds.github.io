@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Alex Leeds</title>
-<link>https://alexleeds.github.io/writing/</link>
-<atom:link href="https://alexleeds.github.io/writing/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://alexleeds.com/writing/</link>
+<atom:link href="https://alexleeds.com/writing/index.xml" rel="self" type="application/rss+xml"/>
 <description>Alex Leeds is a data scientist living in NYC</description>
 <generator>quarto-1.4.537</generator>
 <lastBuildDate>Sat, 13 Apr 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Magical Skills</title>
   <dc:creator>Alex Leeds</dc:creator>
-  <link>https://alexleeds.github.io/writing/magical-skills/</link>
+  <link>https://alexleeds.com/writing/magical-skills/</link>
   <description><![CDATA[ 
 
 
@@ -61,17 +61,17 @@
   author = {Alex Leeds},
   title = {Magical {Skills}},
   date = {2024-04-13},
-  url = {https://alexleeds.github.io/writing/magical-skills},
+  url = {https://alexleeds.com/writing/magical-skills},
   langid = {en-GB}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-leeds2024" class="csl-entry quarto-appendix-citeas">
-Alex Leeds. 2024. <span>“Magical Skills.”</span> <a href="https://alexleeds.github.io/writing/magical-skills">https://alexleeds.github.io/writing/magical-skills</a>.
+Alex Leeds. 2024. <span>“Magical Skills.”</span> <a href="https://alexleeds.com/writing/magical-skills">https://alexleeds.com/writing/magical-skills</a>.
 </div></div></section></div> ]]></description>
   <category>skill acquistion</category>
   <category>team performance</category>
-  <guid>https://alexleeds.github.io/writing/magical-skills/</guid>
+  <guid>https://alexleeds.com/writing/magical-skills/</guid>
   <pubDate>Sat, 13 Apr 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://alexleeds.github.io/writing/magical-skills/pina_film.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://alexleeds.com/writing/magical-skills/pina_film.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

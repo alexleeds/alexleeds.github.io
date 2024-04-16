@@ -7,7 +7,7 @@ resources:
   - CNAME
 
 website:
-  site-url: "https://alexleeds.github.io"
+  site-url: "https://alexleeds.com"
   title: "Alex Leeds"
   description: "Alex Leeds is a data scientist living in NYC"
   navbar:
@@ -46,7 +46,7 @@ format:
           "height":"72 inches",
           "gender":"male",
           "description":"Alex Leeds is a data scientist living in NYC.",
-          "url":"https://alexleeds.github.io",
+          "url":"https://alexleeds.com",
           "address":{
             "@type":"PostalAddress",
             "addressLocality":"New York",
