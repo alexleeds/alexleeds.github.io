@@ -29,7 +29,7 @@ page-layout: full
 
 ## Hello and welcome!
 
-I'm a product manager and data scientist who predicts (and sometimes designs) consumer behavior. I use a mix of experiments, human feedback, and computationally intensive methods to refine ads, pricing, monetization, market segmentation, and product/feature selection.
+I'm a data scientist who predicts (and sometimes designs) consumer behavior. I use a mix of experiments, human feedback, and computationally intensive methods to refine ads, pricing, monetization, market segmentation, and product/feature selection.
 
 Until April 2024, I was the CEO and Co-founder of [Sleuth](https://about.hellosleuth.com/). Sleuth was an app and website that provided running feedback to parents about their kids’ development using machine learning-based benchmarks for 250 topics. We had more than 60,000 parents contribute answers to 1.25 million questions between 2022 and 2023. 
 
@@ -39,9 +39,6 @@ Before Sleuth, I managed data science teams at [Squarespace](https://www.squares
 
 I live in New York City on the Upper East Side with my wife, daughter, and [two vocal cats](https://www.instagram.com/p/Bxz-7J6pzJs/).
 
-In my free time, I enjoy reading biographies, swimming (badly), and coding projects for pure entertainment (like [AI Debates](https://github.com/alexleeds/ai-debates/tree/main)).
-
-I created and (lightly) oversee a meetup called [NYC AI Hackers](https://www.meetup.com/ai-hackers/).
+In my free time, I enjoy reading biographies, swimming (badly), and [coding projects for pure entertainment](/projects/). I also created and (lightly) oversee a meetup called [NYC AI Hackers](https://www.meetup.com/ai-hackers/) that runs events exploring data science and AI applications.
 
 Get in touch by [sending me a note](/mailto:alex.leeds+website@gmail.com). {{< fa feather-pointed >}}
-

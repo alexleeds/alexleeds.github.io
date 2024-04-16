@@ -1,14 +1,15 @@
 project:
   type: website
+  output-dir: docs
   # pre-render:
-    # - scripts/pre_canonicalise_tags.py
+  #   - scripts/pre_canonicalise_tags.py
 resources:
   - CNAME
 
 website:
-  site-url: "http://localhost:7347"
+  site-url: "https://alexleeds.github.io"
   title: "Alex Leeds"
-  description: "Alex Leeds is a computational epidemiologist/data scientist working at the intersection of AI, epidemiology and public health."
+  description: "Alex Leeds is a data scientist living in NYC"
   navbar:
     logo: img/house-solid.svg
     right:
@@ -19,10 +20,9 @@ website:
       - href: https://about.hellosleuth.com/
         text: SLEUTH
   page-footer:
-    left: "(c) Alex Leeds, 2024–"
+    left: "Made with Quarto"
   twitter-card: true
   open-graph: true
-  google-analytics: "395640625"
 
 format:
   html:
@@ -37,11 +37,26 @@ format:
     fig-align: center
     include-in-header:
       text: |
-        <script type='application/ld+json'>{"@context":"http://www.schema.org","@type":"person","name":"Alex Leeds",
-        "jobTitle":Product manager and data scientist","height":"72 inches","gender":"male",
-        "description":"Alex Leeds .","url":"https://alexleeds.gitihub.io",
-        "address":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY","postalCode":"10021","addressCountry":"United States"},
-        "birthDate":"1980-06-29","birthPlace":"New York, NY"
+        <script type='application/ld+json'>
+        {
+          "@context":"http://www.schema.org",
+          "@type":"Person",
+          "name":"Alex Leeds",
+          "jobTitle":"Data scientist",
+          "height":"72 inches",
+          "gender":"male",
+          "description":"Alex Leeds is a data scientist living in NYC.",
+          "url":"https://alexleeds.github.io",
+          "address":{
+            "@type":"PostalAddress",
+            "addressLocality":"New York",
+            "addressRegion":"NY",
+            "postalCode":"10021",
+            "addressCountry":"United States"
+          },
+          "birthDate":"1980-06-29",
+          "birthPlace":"New York, NY"
+        }
         </script>
         <script>
           document.addEventListener('DOMContentLoaded', function () {
@@ -55,7 +70,3 @@ format:
             });
           });
         </script>
-
-
-
-

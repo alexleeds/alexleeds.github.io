@@ -54,7 +54,7 @@ Technically, these debates have three technical problems - all of them quite int
 
 My [current implementation of these](https://github.com/alexleeds/ai-debates) is extremely rough - just enough to run a debate that people truly enjoyed.
 
-### Trends in Aesthetics
+### Trends in aesthetics
 
 We love things that are slightly different in style from products we already know. This influences our preferences in every art form: clothing, music, food, software, etc.
 
@@ -83,12 +83,12 @@ Preferences of spiciness in certain cuisines?
 
 My first project in this space, however, is to look at trends in color palettes in commercial clothing. I’m capturing images of clothes from hundreds of design clothing companies’ archived websites and using neural nets to explore broad patterns in the clothings’ color schemes.
 
-### AI Chess
+### General purpose AI chess
 
 Since [IBM Deep Blue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) in the 1980s (and, of course, earlier), chess has been a fun proving ground for computer problem solving. 
 
-I like testing the ability of generalist AI programs from Google, OpenAI, Anthropic, etc. to play chess because it isn’t something that naturally follows from the “provide the best next text” emphasis that was originally used to train these chat systems. They surely pick up chess data during training, but playing chess well is still a pretty specialized problem. It requires a demanding mix of memory, tactical, and strategic solutions that we think of as its own domain expertise.
+I like testing the ability of generalist AI programs from Google, OpenAI, Anthropic, etc. to play chess because it isn’t something that naturally follows from the “provide the best next text” emphasis that was used to train these chat systems. They surely pick up chess data during training, but playing chess well is still a pretty specialized problem. It requires a demanding mix of memory, tactical, and strategic solutions that we think of as a distinct domain expertise.
 
 The other great thing about chess is that we have incredibly strong chess engines like [Stockfish](https://stockfishchess.org/) that can be set for varying difficulty levels to allow us to test exactly how strong the AI programs currently are.
 
-I’ve tested how well OpenAI performs at chess against Stockfish. Over time, I want to track the improvements in AI performance, pit them against each other, and explore AI’s ability to reason about their own chess moves.
+I’ve tested how well OpenAI performs at chess against Stockfish. Over time, I want to track the improvements in AI performance, pit them against each other, and explore these AIs' abilities to reason about their own chess moves.
