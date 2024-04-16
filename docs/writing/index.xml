@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Alex Leeds</title>
+<link>https://alexleeds.github.io/writing/</link>
+<atom:link href="https://alexleeds.github.io/writing/index.xml" rel="self" type="application/rss+xml"/>
+<description>Alex Leeds is a computational epidemiologist/data scientist working at the intersection of AI, epidemiology and public health.</description>
+<generator>quarto-1.4.537</generator>
+<lastBuildDate>Sat, 13 Apr 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Magical Skills</title>
+  <dc:creator>Alex Leeds</dc:creator>
+  <link>https://alexleeds.github.io/writing/magical-skills/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Barbara Corcoran, founder of the Corcoran (real estate) Group, <a href="https://twitter.com/BarbaraCorcoran/status/953716121470939137">recently tweeted</a>, “The hardest lesson to learn is that you are more capable than you think you are.”</p>
+<p>I’ve often wondered about this: how do we hem ourselves in by our own expectations?</p>
+<p>At a simplistic level, tons of research on <a href="https://faculty.wcas.northwestern.edu/eli-finkel/documents/InPress_BurnetteOBoyleVanEppsPollackFinkel_PsychBull.pdf">implicit beliefs</a>, <a href="https://psycnet.apa.org/manuscript/2020-99903-019.pdf">growth mindset</a>, and <a href="https://www.researchgate.net/profile/Martha-Carr-2/publication/38138977_Motivational_Components_of_Underachievement/links/54d3a5a10cf2b0c6146de654/Motivational-Components-of-Underachievement.pdf">underachievement</a> explores the basic idea: If we believe we can’t learn or do something - or just that our skills in some domain are inherited rather than acquired - then we don’t learn it.</p>
+<p>But I’m interested in another layer of this problem: opportunities we miss because <em>almost no one</em> believes that a skill is possible for any individual or group. What about the limits we impose from lack of imagination rather than from lack of self-confidence?</p>
+<section id="what-impossible-skills-are-actually-possible" class="level2">
+<h2 class="anchored" data-anchor-id="what-impossible-skills-are-actually-possible">What “impossible” skills are actually possible?</h2>
+<p>What if we lived in a world where long distance running had never been invented as a sport? Would we believe that a human could run 26 miles in under 4:36 seconds per mile? Probably not.</p>
+<p>What if we lived in a world where professional musicians didn’t exist, and then imported Yuja Wang? Her performance would seem like magic: the memory of those hundreds of thousands of notes delivered with impossible control.</p>
+<p>But there are abilities that most people would probably not imagine at all.</p>
+<ul>
+<li><p>We can hold our breath for more than 20 minutes (<a href="https://www.wired.com/story/what-it-takes-to-hold-your-breath-for-24-minutes-yeah-its-a-thing/">Wired article</a> and <a href="https://www.scientificamerican.com/article/the-limits-of-breath-holding/">Scientific American</a>).</p></li>
+<li><p>We can <a href="https://www.worldmemorychampionships.com/spoken-numbers/">perfectly recall 500 single-digit numbers</a> having heard them listed only once.</p></li>
+<li><p>Apollo Robbins can remove your watch <a href="https://www.youtube.com/watch?v=Zkx-XzEkoHs">without your awareness</a> <a href="https://www.newyorker.com/magazine/2013/01/07/a-pickpockets-tale">even when you are trying to prevent him</a>.</p></li>
+</ul>
+<p>The most extreme examples <em>are</em> due to rare talent as well as extreme effort. But a fraction of these performances is still outside the usual range of “believable.”</p>
+<p>Could we do the same with slightly more practical skills? Paul Ekman made a science out of reading people’s emotions (<a href="https://www.amazon.com/Emotions-Revealed-Second-Recognizing-Communication/dp/0805083391">Emotions Revealed</a>), for example. What could we do if we imagined other useful skills.</p>
+<p>Imagine if we collected thousands of video clips from YouTube of just people…</p>
+<ul>
+<li>introducing themselves</li>
+<li>making persuasive arguments</li>
+<li>interrupting other people</li>
+<li>defending a belief</li>
+<li>making jokes classified by style</li>
+</ul>
+<p>How are these done well? When do they fail? This is now a feasible AI project.</p>
+</section>
+<section id="what-could-groups-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-could-groups-do">What could groups do?</h2>
+<p>And what about groups? Most of our models for how people behave in social and work settings are based on limited scenarios and narrow comfort levels.</p>
+<p>What if we took the hours, focus, and energy of a five-star restaurant kitchen staff and expected Facebook software developers to perform similarly? I think some of them might actually die from exhaustion before the week was over.</p>
+<p>Could we change how people think about working as a team in professional settings? What if we really did cross software development with the skills/practical elements of other fields like restaurants, or sports, or concert music? What if we also tailored the workflows of different teams to more accurately reflect the kinds of outcomes t hey aim to produce?</p>
+<p>Jensen Huang <a href="https://www.acquired.fm/episodes/jensen-huang">recently made this argument</a>. He criticized engineering firms for adopting a generic pattern for organizational structure and functions. Similarly, I still see hospitals fighting (and failing) to overcome the departmental structure that has existed for decades. And many private equity firms still use approaches that Siegmund Warburg designed in the 1940s and 1950s.</p>
+<p>Our expectations for ourselves, for our professions, and for our societies are hide-bound. I’m not sure what to do about it, but I’m certain that we set our sights far too low.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{leeds2024,
+  author = {Alex Leeds},
+  title = {Magical {Skills}},
+  date = {2024-04-13},
+  url = {https://alexleeds.github.io/writing/magical-skills},
+  langid = {en-GB}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-leeds2024" class="csl-entry quarto-appendix-citeas">
+Alex Leeds. 2024. <span>“Magical Skills.”</span> <a href="https://alexleeds.github.io/writing/magical-skills">https://alexleeds.github.io/writing/magical-skills</a>.
+</div></div></section></div> ]]></description>
+  <category>skill acquistion</category>
+  <category>team performance</category>
+  <guid>https://alexleeds.github.io/writing/magical-skills/</guid>
+  <pubDate>Sat, 13 Apr 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://alexleeds.github.io/writing/magical-skills/pina_film.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
