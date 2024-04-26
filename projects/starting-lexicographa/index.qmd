@@ -1,7 +1,7 @@
 ---
 title: "Finding new words"
 description: |
-    Systematically discovering words for concepts that don't exist in English
+    Systematically discovering words that exist in other languages but not English
 author:
     - name: Alex Leeds
 date: 2024-04-16
@@ -9,7 +9,7 @@ categories: ["Universal lexicon", "Lexicographa", "Language", "AI"]
 image: Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg
 ---
 
-I’m calling this mini-project *lexicographa*. A lexicographer is “someone who creates dictionaries,” so it seems fitting. 
+I’m calling this mini-project *lexicographa*. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.
 
 There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised learning:
 
