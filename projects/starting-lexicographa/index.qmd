@@ -9,15 +9,15 @@ categories: ["Universal lexicon", "Lexicographa", "Language", "AI"]
 image: Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg
 ---
 
-I’m calling my mini-project to find fun words that exist in other languages but not English *lexicographa*. A lexicographer is “someone who creates dictionaries,” so it seems fitting. 
+I’m calling this mini-project *lexicographa*. A lexicographer is “someone who creates dictionaries,” so it seems fitting. 
 
-There are two ways to go about this problem, basically unsupervised and supervised learning.
+There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised learning:
 
 ### Far out and *far out*
 
-In the unsupervised approach, I’ll begin by finding single words whose [AI text embeddings](https://platform.openai.com/docs/guides/embeddings) locate them far from any word in English. This approach should fail. Among other things, distance metrics tend to break down as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn't equate to being intriguingly distant in a few useful ones.
+In the unsupervised approach, I’ll begin by finding single words in European languages whose [AI text embeddings](https://platform.openai.com/docs/guides/embeddings) locate them far from any word in English. This approach should fail at first. Among other things, distance metrics tend to break down as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn't equate to being intriguingly distant in a few useful ones.
 
-To use the unsupervised approach, we’ll definitely have to zero in on useful dimensions for various types of words.
+To use the unsupervised approach, we will definitely have to zero in on useful dimensions for various types of words.
 
 Distance can also be misleading. If the AI text embeddings are like a map of language, we don't want to find the middle of the ocean. We want words that are distinctive within the spheres they occupy, more like unusual foreign landmarks.
 
