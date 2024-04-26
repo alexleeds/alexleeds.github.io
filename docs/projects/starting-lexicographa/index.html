@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Alex Leeds">
+<meta name="dcterms.date" content="2024-04-16">
+<meta name="description" content="Systematically discovering words for concepts that don’t exist in English">
 
-<title>Alex Leeds - Projects</title>
+<title>Alex Leeds - Finding new words</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../img/letter_a_by_md_tanvirul_haque.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/letter_a_by_md_tanvirul_haque.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script type="application/ld+json">
 {
   "@context":"http://www.schema.org",
@@ -132,40 +104,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Alex Leeds" href="index.xml" data-external="1"><meta property="og:title" content="Alex Leeds - Projects">
+<meta property="og:title" content="Alex Leeds - Finding new words">
+<meta property="og:description" content="Systematically discovering words for concepts that don’t exist in English">
+<meta property="og:image" content="https://alexleeds.com/projects/starting-lexicographa/Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg">
 <meta property="og:site_name" content="Alex Leeds">
-<meta name="twitter:title" content="Alex Leeds - Projects">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Alex Leeds - Finding new words">
+<meta name="twitter:description" content="Systematically discovering words for concepts that don’t exist in English">
+<meta name="twitter:image" content="https://alexleeds.com/projects/starting-lexicographa/Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -175,10 +122,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/house-solid.svg" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/house-solid.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Alex Leeds</span>
     </a>
   </div>
@@ -189,11 +136,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../writing"> 
+    <a class="nav-link" href="../../writing"> 
 <span class="menu-text">WRITING</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects"> 
+    <a class="nav-link" href="../../projects"> 
 <span class="menu-text">PROJECTS</span></a>
   </li>  
   <li class="nav-item">
@@ -208,25 +155,55 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="AI chess">AI chess <span class="quarto-category-count">(1)</span></div><div class="category" data-category="AI debates">AI debates <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Aethetic trends">Aethetic trends <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Language">Language <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Lexicographa">Lexicographa <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Universal lexicon">Universal lexicon <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#far-out-and-far-out" id="toc-far-out-and-far-out" class="nav-link active" data-scroll-target="#far-out-and-far-out">Far out and <em>far out</em></a></li>
+  <li><a href="#corpuses-to-dissect" id="toc-corpuses-to-dissect" class="nav-link" data-scroll-target="#corpuses-to-dissect">Corpuses to dissect…</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Finding new words</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Universal lexicon</div>
+    <div class="quarto-category">Lexicographa</div>
+    <div class="quarto-category">Language</div>
+    <div class="quarto-category">AI</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Systematically discovering words for concepts that don’t exist in English</p>
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Alex Leeds </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 16, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -236,101 +213,32 @@ window.Quarto = {
 </header>
 
 
+<p>I’m calling my mini-project to find fun words that exist in other languages but not English <em>lexicographa</em>. A lexicographer is “someone who creates dictionaries,” so it seems fitting.</p>
+<p>There are two ways to go about this problem, basically unsupervised and supervised learning.</p>
+<section id="far-out-and-far-out" class="level3">
+<h3 class="anchored" data-anchor-id="far-out-and-far-out">Far out and <em>far out</em></h3>
+<p>In the unsupervised approach, I’ll begin by finding single words whose <a href="https://platform.openai.com/docs/guides/embeddings">AI text embeddings</a> locate them far from any word in English. This approach should fail. Among other things, distance metrics tend to break down as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn’t equate to being intriguingly distant in a few useful ones.</p>
+<p>To use the unsupervised approach, we’ll definitely have to zero in on useful dimensions for various types of words.</p>
+<p>Distance can also be misleading. If the AI text embeddings are like a map of language, we don’t want to find the middle of the ocean. We want words that are distinctive within the spheres they occupy, more like unusual foreign landmarks.</p>
+<p>Nevertheless, the best place to start is to experiment. I’ll start with code that says “just show me words in French, Spanish, German, or Italian are distant from my English corpus and see what we find. Then we can refine how useful “distance” is represented.</p>
+<p>In other forms of natural language processing, it would be typical to use <a href="https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency">TF-IDF</a> (term frequency, inverse document frequency). The idea of TF-IDF is to find words that appear frequently inside some documents but not across all documents. The word “baseball” will appear many times in articles about baseball but not once in articles about other sports. Across news articles, “baseball” has a high TF-IDF and really is a useful guidepost.</p>
+<p>This does not work here. The types of words I’m looking for have a low term frequency and low document frequency. An intriguing word might appear just once in a text, and not often in an entire corpus.</p>
+<p>The supervised method begins with a <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">list of words that fit my objective</a>: abbiocco (the sleepy feeling after eating a large meal), <a href="https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/">verschlimbessern</a> (to make something worse in an attempt to make it better), dépaysement (the mix of euphoria and disorientation of being in a foreign country),<br>
+etc. And then explore the conditions that make hundreds of these words distant.</p>
+<p>Supervized learning, however, tends to find exemplars that only fit the identified pattern. It isn’t very good for creativity - and creativity is what we want! Additionally, I’m not sure I can find more than a thousand of these words for supervised learning, which is very weak grounds for training in a problem with this much ambiguity.</p>
+<p>In any case, we need a corpus to analyze.</p>
+</section>
+<section id="corpuses-to-dissect" class="level3">
+<h3 class="anchored" data-anchor-id="corpuses-to-dissect">Corpuses to dissect…</h3>
+<p>One possibility would be to grab whole books in different languages from <a href="https://www.gutenberg.org/">Project Gutenberg</a>. It would be easy to expand this project to see how different authors’ vocabularies vary and what words are distinctive not only by language but also by author.</p>
+<p>But as Hemmingway demonstrates, plain words often make for better storytelling. I’m not sure books are the best source.</p>
+<p>At first glance, the <a href="https://corpora.uni-leipzig.de/en">Leipzig Corpora Collection</a> looks excellent. This database is built for linguistics research with words and sentences in 291 languages including Internet and news sites through 2023. It appears to do well for the types of colloquial phrases we want in this project.</p>
+<p>There are also historical data dumps from resources like Wikipedia, Reddit, and Twitter. But I think I’ll start with the Leipzig Corpora Collection and grow from there.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Universal lexicon,AI debates,AI chess,Aethetic trends" data-listing-date-sort="1713240000000" data-listing-file-modified-sort="1714140596489" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="904">
-<div class="thumbnail">
-<p><a href="../projects/some-fun-projects/index.html" class="no-external"></a></p><a href="../projects/some-fun-projects/index.html" class="no-external">
-<p><img src="../projects/some-fun-projects/ai_debate.png" class="thumbnail-image"></p>
-</a><p><a href="../projects/some-fun-projects/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/some-fun-projects/index.html" class="no-external">Some Fun Projects</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../projects/some-fun-projects/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Universal lexicon'); return false;">
-Universal lexicon
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI debates'); return false;">
-AI debates
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI chess'); return false;">
-AI chess
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Aethetic trends'); return false;">
-Aethetic trends
-</div>
-</div>
-<div class="listing-description">
-<a href="../projects/some-fun-projects/index.html" class="no-external">Stuff I’m excited about </a>
-</div>
-</div>
-<div class="metadata">
-<a href="../projects/some-fun-projects/index.html" class="no-external">
-<div class="listing-date">
-Apr 16, 2024
-</div>
-<div class="listing-author">
-Alex Leeds
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Universal lexicon,Lexicographa,Language,AI" data-listing-date-sort="1713240000000" data-listing-file-modified-sort="1714157598194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="591">
-<div class="thumbnail">
-<p><a href="../projects/starting-lexicographa/index.html" class="no-external"></a></p><a href="../projects/starting-lexicographa/index.html" class="no-external">
-<p><img src="../projects/starting-lexicographa/Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg" class="thumbnail-image"></p>
-</a><p><a href="../projects/starting-lexicographa/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/starting-lexicographa/index.html" class="no-external">Finding new words</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../projects/starting-lexicographa/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Universal lexicon'); return false;">
-Universal lexicon
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Lexicographa'); return false;">
-Lexicographa
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Language'); return false;">
-Language
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-</div>
-<div class="listing-description">
-<a href="../projects/starting-lexicographa/index.html" class="no-external">Systematically discovering words for concepts that don’t exist in English </a>
-</div>
-</div>
-<div class="metadata">
-<a href="../projects/starting-lexicographa/index.html" class="no-external">
-<div class="listing-date">
-Apr 16, 2024
-</div>
-<div class="listing-author">
-Alex Leeds
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

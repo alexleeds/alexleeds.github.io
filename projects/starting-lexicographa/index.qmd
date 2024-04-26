@@ -1,0 +1,45 @@
+---
+title: "Finding new words"
+description: |
+    Systematically discovering words for concepts that don't exist in English
+author:
+    - name: Alex Leeds
+date: 2024-04-16
+categories: ["Universal lexicon", "Lexicographa", "Language", "AI"]
+image: Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg
+---
+
+I’m calling my mini-project to find fun words that exist in other languages but not English *lexicographa*. A lexicographer is “someone who creates dictionaries,” so it seems fitting. 
+
+There are two ways to go about this problem, basically unsupervised and supervised learning.
+
+### Far out and *far out*
+
+In the unsupervised approach, I’ll begin by finding single words whose [AI text embeddings](https://platform.openai.com/docs/guides/embeddings) locate them far from any word in English. This approach should fail. Among other things, distance metrics tend to break down as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn't equate to being intriguingly distant in a few useful ones.
+
+To use the unsupervised approach, we’ll definitely have to zero in on useful dimensions for various types of words.
+
+Distance can also be misleading. If the AI text embeddings are like a map of language, we don't want to find the middle of the ocean. We want words that are distinctive within the spheres they occupy, more like unusual foreign landmarks.
+
+Nevertheless, the best place to start is to experiment. I’ll start with code that says “just show me words in French, Spanish, German, or Italian are distant from my English corpus and see what we find. Then we can refine how useful “distance” is represented.
+
+In other forms of natural language processing, it would be typical to use [TF-IDF](https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency) (term frequency, inverse document frequency). The idea of TF-IDF is to find words that appear frequently inside some documents but not across all documents. The word "baseball" will appear many times in articles about baseball but not once in articles about other sports. Across news articles, "baseball" has a high TF-IDF and really is a useful guidepost.
+
+This does not work here. The types of words I'm looking for have a low term frequency and low document frequency. An intriguing word might appear just once in a text, and not often in an entire corpus.
+ 
+The supervised method begins with a [list of words that fit my objective](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/): abbiocco (the sleepy feeling after eating a large meal), [verschlimbessern](https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/) (to make something worse in an attempt to make it better), dépaysement (the mix of euphoria and disorientation of being in a foreign country),  
+etc. And then explore the conditions that make hundreds of these words distant. 
+
+Supervized learning, however, tends to find exemplars that only fit the identified pattern. It isn’t very good for creativity - and creativity is what we want! Additionally, I’m not sure I can find more than a thousand of these words for supervised learning, which is very weak grounds for training in a problem with this much ambiguity.
+
+In any case, we need a corpus to analyze.
+
+### Corpuses to dissect…
+
+One possibility would be to grab whole books in different languages from [Project Gutenberg](https://www.gutenberg.org/). It would be easy to expand this project to see how different authors’ vocabularies vary and what words are distinctive not only by language but also by author. 
+
+But as Hemmingway demonstrates, plain words often make for better storytelling. I'm not sure books are the best source.
+
+At first glance, the [Leipzig Corpora Collection](https://corpora.uni-leipzig.de/en) looks excellent. This database is built for linguistics research with words and sentences in 291 languages including Internet and news sites through 2023. It appears to do well for the types of colloquial phrases we want in this project.
+
+There are also historical data dumps from resources like Wikipedia, Reddit, and Twitter. But I think I’ll start with the Leipzig Corpora Collection and grow from there.
