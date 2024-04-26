@@ -9,7 +9,7 @@ image: pina_film.jpg
 bibliography: references.bib
 ---
 
-Barbara Corcoran, founder of the Corcoran (real estate) Group, [recently tweeted](https://twitter.com/BarbaraCorcoran/status/953716121470939137), “The hardest lesson to learn is that you are more capable than you think you are.”
+Barbara Corcoran of the Corcoran (real estate) Group [recently tweeted](https://twitter.com/BarbaraCorcoran/status/953716121470939137), “The hardest lesson to learn is that you are more capable than you think you are.”
 
 I’ve often wondered about this: how do we hem ourselves in by our own expectations? 
 
@@ -31,9 +31,9 @@ But there are abilities that most people would probably not imagine at all.
 
 - Apollo Robbins can remove your watch [without your awareness](https://www.youtube.com/watch?v=Zkx-XzEkoHs) [even when you are trying to prevent him](https://www.newyorker.com/magazine/2013/01/07/a-pickpockets-tale). 
 
-The most extreme examples *are* due to rare talent as well as extreme effort. But a fraction of these performances is still outside the usual range of "believable."
+The most extreme examples *are* due to rare talent as well as extreme effort. But a fraction of thesse performances is achievable with concerted long-term effort yet just not "believable" by almost anyone.
 
-Could we do the same with slightly more practical skills? Paul Ekman made a science out of reading people’s emotions ([Emotions Revealed](https://www.amazon.com/Emotions-Revealed-Second-Recognizing-Communication/dp/0805083391)), for example. What could we do if we imagined other useful skills.
+Could we do the same with slightly more practical skills? Paul Ekman made a science out of reading people’s emotions ([Emotions Revealed](https://www.amazon.com/Emotions-Revealed-Second-Recognizing-Communication/dp/0805083391)), for example. What could we do if we imagined other useful skills?
 
 Imagine if we collected thousands of video clips from YouTube of just people...
 
