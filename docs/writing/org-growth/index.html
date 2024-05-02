@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.537">
@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alex Leeds">
-<meta name="dcterms.date" content="2024-04-16">
-<meta name="description" content="Systematically discovering words that exist in other languages but not English">
+<meta name="dcterms.date" content="2024-05-02">
 
-<title>Alex Leeds - Finding new words</title>
+<title>Alex Leeds - Organizational Growth as a Navigation Problem</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,13 +104,13 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<meta property="og:title" content="Alex Leeds - Finding new words">
-<meta property="og:description" content="Systematically discovering words that exist in other languages but not English">
-<meta property="og:image" content="https://alexleeds.com/projects/starting-lexicographa/Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg">
+<meta property="og:title" content="Alex Leeds - Organizational Growth as a Navigation Problem">
+<meta property="og:description" content="Alex Leeds is a data scientist living in NYC">
+<meta property="og:image" content="https://alexleeds.com/writing/org-growth/market_map1b.svg">
 <meta property="og:site_name" content="Alex Leeds">
-<meta name="twitter:title" content="Alex Leeds - Finding new words">
-<meta name="twitter:description" content="Systematically discovering words that exist in other languages but not English">
-<meta name="twitter:image" content="https://alexleeds.com/projects/starting-lexicographa/Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg">
+<meta name="twitter:title" content="Alex Leeds - Organizational Growth as a Navigation Problem">
+<meta name="twitter:description" content="Alex Leeds is a data scientist living in NYC">
+<meta name="twitter:image" content="https://alexleeds.com/writing/org-growth/market_map1b.svg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -163,8 +162,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#far-out-and-far-out" id="toc-far-out-and-far-out" class="nav-link active" data-scroll-target="#far-out-and-far-out">Far out and <em>far out</em></a></li>
-  <li><a href="#corpuses-to-dissect" id="toc-corpuses-to-dissect" class="nav-link" data-scroll-target="#corpuses-to-dissect">Corpuses to dissect…</a></li>
+  <li><a href="#navigating-in-2024" id="toc-navigating-in-2024" class="nav-link active" data-scroll-target="#navigating-in-2024">Navigating in 2024</a></li>
   </ul>
 </nav>
     </div>
@@ -173,20 +171,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Finding new words</h1>
+<h1 class="title">Organizational Growth as a Navigation Problem</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Universal lexicon</div>
-    <div class="quarto-category">Lexicographa</div>
-    <div class="quarto-category">Language</div>
-    <div class="quarto-category">AI</div>
+    <div class="quarto-category">organizational growth</div>
+    <div class="quarto-category">ad tactics</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    <p>Systematically discovering words that exist in other languages but not English</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -201,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 16, 2024</p>
+      <p class="date">2 May 2024</p>
     </div>
   </div>
   
@@ -213,32 +204,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I’m calling this mini-project <em>lexicographa</em>. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.</p>
-<p>There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised learning:</p>
-<section id="far-out-and-far-out" class="level3">
-<h3 class="anchored" data-anchor-id="far-out-and-far-out">Far out and <em>far out</em></h3>
-<p>In the unsupervised approach, I’ll begin by finding single words in European languages whose <a href="https://platform.openai.com/docs/guides/embeddings">AI text embeddings</a> locate them far from any word in English. This approach should fail at first. Among other things, distance metrics tend to break down as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn’t equate to being intriguingly distant in a few useful ones.</p>
-<p>To use the unsupervised approach, we will definitely have to zero in on useful dimensions for various types of words.</p>
-<p>Distance can also be misleading. If the AI text embeddings are like a map of language, we don’t want to find the middle of the ocean. We want words that are distinctive within the spheres they occupy, more like unusual foreign landmarks.</p>
-<p>Nevertheless, the best place to start is to experiment. I’ll start with code that says “just show me words in French, Spanish, German, or Italian are distant from my English corpus and see what we find. Then we can refine how useful “distance” is represented.</p>
-<p>In other forms of natural language processing, it would be typical to use <a href="https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency">TF-IDF</a> (term frequency, inverse document frequency). The idea of TF-IDF is to find words that appear frequently inside some documents but not across all documents. The word “baseball” will appear many times in articles about baseball but not once in articles about other sports. Across news articles, “baseball” has a high TF-IDF and really is a useful guidepost.</p>
-<p>This does not work here. The types of words I’m looking for have a low term frequency and low document frequency. An intriguing word might appear just once in a text, and not often in an entire corpus.</p>
-<p>The supervised method begins with a <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">list of words that fit my objective</a>: abbiocco (the sleepy feeling after eating a large meal), <a href="https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/">verschlimbessern</a> (to make something worse in an attempt to make it better), dépaysement (the mix of euphoria and disorientation of being in a foreign country),<br>
-etc. And then explore the conditions that make hundreds of these words distant.</p>
-<p>Supervized learning, however, tends to find exemplars that only fit the identified pattern. It isn’t very good for creativity - and creativity is what we want! Additionally, I’m not sure I can find more than a thousand of these words for supervised learning, which is very weak grounds for training in a problem with this much ambiguity.</p>
-<p>In any case, we need a corpus to analyze.</p>
-</section>
-<section id="corpuses-to-dissect" class="level3">
-<h3 class="anchored" data-anchor-id="corpuses-to-dissect">Corpuses to dissect…</h3>
-<p>One possibility would be to grab whole books in different languages from <a href="https://www.gutenberg.org/">Project Gutenberg</a>. It would be easy to expand this project to see how different authors’ vocabularies vary and what words are distinctive not only by language but also by author.</p>
-<p>But as Hemmingway demonstrates, plain words often make for better storytelling. I’m not sure books are the best source.</p>
-<p>At first glance, the <a href="https://corpora.uni-leipzig.de/en">Leipzig Corpora Collection</a> looks excellent. This database is built for linguistics research with words and sentences in 291 languages including Internet and news sites through 2023. It appears to do well for the types of colloquial phrases we want in this project.</p>
-<p>There are also historical data dumps from resources like Wikipedia, Reddit, and Twitter. But I think I’ll start with the Leipzig Corpora Collection and grow from there.</p>
+<p>Two angles for thinking about organizational growth are <em>navigation</em> and <em>competition</em>. Navigation can refer to how an organization steers through its environment toward the promising opportunities. Competition is a bit more focused on the methods and strategy an organization uses to fight.</p>
+<p>Competitive strategy might determine where an organization chooses to “go” in the long term. But I think navigation is an especially important consideration for fast growing organizations, and not as common as classic strategic analysis (five forces, flywheels, zero-to-one, etc).</p>
+<p>When your product is better than the competition, you can get huge growth by exploiting your advantages to the hilt: growing into <em>open</em> territory. To do that, navigating requires a clear picture of the landscape, not competitive calculations. If you could only see the opportunity, then you would simply go there. And the difference of a few degrees in direction might be the difference between hitting a vein of gold or missing it completely. Or, more modestly, the benefit of shifting your worst 30% of ads to the performance of your best 30%.</p>
+<p>The first challenge of navigation is to be good at observing the environment. Therefore…</p>
+<section id="navigating-in-2024" class="level2">
+<h2 class="anchored" data-anchor-id="navigating-in-2024">Navigating in 2024</h2>
+<p>To navigate places, you have to have good sensors.</p>
+<p>For growth strategy, your sensors are “measures” of what potential customers want, what they learn or know about you (and respond to emotionally), and “where” they exist online and off. Most companies have some solid understanding of these but they don’t measure them well.</p>
+<p>The techniques are pretty straightforward. They include:</p>
+<p><img src="methods_of_seeing.png" class="img-fluid"></p>
+<p>These techniques (very) roughly use these data inputs:</p>
+<p><img src="methods_of_seeing_labeled.png" class="img-fluid"></p>
+<p>Most organizations use these techniques. But they miss three opportunities that are pretty hard to do:</p>
+<p><strong>(1) Gather this data on a regular cadence.</strong></p>
+<p>Certain “slow” processes might happen twice a year. Certain fast processes might happen every hour. But it is important to have predictability in these feedback loops so that people embed the information in their operations. These need to be really smooth: when people need the analysis, it should be at their fingertips.</p>
+<p><strong>(2) Capture the same data about your target markets and your existing customers</strong></p>
+<p>With data about your target markets and your existing customers, you get obvious charts that look like this:</p>
+<p><img src="market_map1.png" class="img-fluid"></p>
+<p>The same chart can be produced for <strong>verticals</strong> <em>or</em> <strong>interest in product features</strong> <em>or</em> <strong>geographic regions</strong> <em>or</em> <strong>media audience</strong> and it can be modified to reflect cost to acquire a customer instead of scale.</p>
+<p>A slight variation of this chart can show the % of highly likely customers in a vertical vs.&nbsp;the % of customers in that vertical who know about you.</p>
+<p><strong>(3) Study the same dynamics across interviews, surveys, and quantitative data sets.</strong></p>
+<p>It is classically true that interviews explain “why” someone might want or love your product but when, where, why, or how. That said, there are lots of established techniques for bridging interviews, surveys, and product data – but it requires planned coordination.</p>
+<p>The payoff, of course, is that once you know what types of messaging consumers respond to (interviews), you can test those in your marketing material (experiments), and validate the impact on LTV (product data), and create feedback between techniques.</p>
+<p><strong>(4) Your navigation must support your means of locomotion.</strong></p>
+<p>The goal isn’t to change organizational behavior, it is to supercharge it.</p>
+<p>Sticking with the “seeing where to go” analogy, we can consider the market’s response to two devices that want to change how people see things: the Facebook Quest VR headset and the Apple Vision Pro.</p>
+<p>A strong signal that the Apple Vision Pro is succeeding is that people say they love using it for two specific activities: watching movies and reading email.</p>
+<p>Facebook burnt billions of dollars trying to get people to do new things with Quest headsets, exploring their metaverse or playing brand new games. Meanwhile, Apple seems to have triumphed by producing a device that improves everyday lives. If everyday Americans will dump money on a home theater system, it isn’t such a stretch for them to buy the Vision Pro to make the same experience better.</p>
+<p>Once people adopt the Apple Vision Pro for movies, or sports watching, or email, then the gateway opens to create new experiences. The same is true for growth feedback.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{leeds2024,
+  author = {Alex Leeds},
+  title = {Organizational {Growth} as a {Navigation} {Problem}},
+  date = {2024-05-02},
+  url = {https://alexleeds.com/writing/org-growth},
+  langid = {en-GB}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-leeds2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Alex Leeds. 2024. <span>“Organizational Growth as a Navigation
+Problem.”</span> <a href="https://alexleeds.com/writing/org-growth">https://alexleeds.com/writing/org-growth</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
