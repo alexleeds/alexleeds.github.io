@@ -37,6 +37,8 @@ Certain “slow” measurements (e.g. interviews) might happen twice a year. Cer
 
 **(2) Capture the same data about your target markets and your existing customers.**
 
+Organizations tend to research the their own customers or the market, but they rare collect the *same exact* metrics for representative samples of both.
+
 With data about your target markets and your existing customers, you get obvious charts that look like this:
 
 ![](market_map1.png)
