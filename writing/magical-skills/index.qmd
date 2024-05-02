@@ -6,7 +6,6 @@ categories:
 - skill acquistion
 - team performance
 image: pina_film.jpg
-bibliography: references.bib
 ---
 
 Barbara Corcoran of the Corcoran (real estate) Group [recently tweeted](https://twitter.com/BarbaraCorcoran/status/953716121470939137), “The hardest lesson to learn is that you are more capable than you think you are.”

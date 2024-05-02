@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alex Leeds">
-<meta name="dcterms.date" content="2024-05-02">
 
-<title>Alex Leeds - Organizational Growth as a Navigation Problem</title>
+<title>Alex Leeds - Reading</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../img/letter_a_by_md_tanvirul_haque.jpg" rel="icon" type="image/jpeg">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/letter_a_by_md_tanvirul_haque.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script type="application/ld+json">
 {
   "@context":"http://www.schema.org",
@@ -103,15 +133,40 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Alex Leeds - Organizational Growth as a Navigation Problem">
-<meta property="og:description" content="Alex Leeds is a data scientist living in NYC">
-<meta property="og:image" content="https://alexleeds.com/writing/org-growth/market_map1b.svg">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Alex Leeds" href="index.xml" data-external="1"><meta property="og:title" content="Alex Leeds - Reading">
 <meta property="og:site_name" content="Alex Leeds">
-<meta name="twitter:title" content="Alex Leeds - Organizational Growth as a Navigation Problem">
-<meta name="twitter:description" content="Alex Leeds is a data scientist living in NYC">
-<meta name="twitter:image" content="https://alexleeds.com/writing/org-growth/market_map1b.svg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alex Leeds - Reading">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -121,10 +176,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/house-solid.svg" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/house-solid.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Alex Leeds</span>
     </a>
   </div>
@@ -135,15 +190,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../writing"> 
+    <a class="nav-link" href="../writing"> 
 <span class="menu-text">WRITING</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects"> 
+    <a class="nav-link" href="../projects"> 
 <span class="menu-text">PROJECTS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../reading"> 
+    <a class="nav-link" href="../reading"> 
 <span class="menu-text">READING</span></a>
   </li>  
   <li class="nav-item">
@@ -158,33 +213,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#navigating-in-2024" id="toc-navigating-in-2024" class="nav-link active" data-scroll-target="#navigating-in-2024">Navigating in 2024</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fantasy">fantasy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="science fiction">science fiction <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Organizational Growth as a Navigation Problem</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">organizational growth</div>
-    <div class="quarto-category">ad tactics</div>
-  </div>
-  </div>
+<h1 class="title">Reading</h1>
+</div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -193,12 +238,6 @@ ul.task-list li input[type="checkbox"] {
           </div>
   </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2 May 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -208,40 +247,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Two angles for thinking about organizational growth are <em>navigation</em> and <em>competition</em>. Navigation refers to how an organization steers through its environment toward promising opportunities. Competition more focused on the methods an organization uses to fight.</p>
-<p>Competitive strategy might determine where an organization “goes” in the long term. But I think navigation is an essential focus for fast growing organizations, and not as common as classic strategic analysis (five forces, flywheels, zero-to-one, etc).</p>
-<p>When your product is better than the competition, you can get huge growth by exploiting your advantages to the hilt: growing into <em>open</em> territory. To do that, navigating requires a clear picture of the landscape, not competitive calculations. If you could only see the opportunity, then you would simply go there. And the difference of a few degrees in direction might be the difference between hitting a vein of gold or missing it completely. Or, more modestly, the benefit of shifting your worst 30% of ads to the performance of your best 30%.</p>
-<p>We can think of organizational navigation as the challenge of a self-driving car: First, it needs to see and recognize the features of the environment. Therefore…</p>
-<section id="navigating-in-2024" class="level2">
-<h2 class="anchored" data-anchor-id="navigating-in-2024">Navigating in 2024</h2>
-<p>To navigate places, you have to have good sensors.</p>
-<p>For growth strategy, your sensors are measures of what potential customers want, what they learn or know about you (and respond to emotionally), and “where” they exist online and off. Most companies have strong intuitions about these but they don’t always measure them well.</p>
-<p>The techniques are pretty straightforward. They include:</p>
-<p><img src="methods_of_seeing.png" class="img-fluid"></p>
-<p>These techniques (very) roughly use these data inputs:</p>
-<p><img src="methods_of_seeing_labeled.png" class="img-fluid"></p>
-<p>To excel with at these techniques, there are three steps that take a concerted effort.</p>
-<p><strong>(1) Gather this data on a regular cadence.</strong></p>
-<p>Certain “slow” measurements (e.g.&nbsp;interviews) might happen twice a year. Certain fast measurements might happen every hour. But it is important to have predictability in these feedback loops so that people embed the information in their operations. These need to be really smooth: when people need the analysis, it should be at their fingertips, if not automating organizational tactics directly.</p>
-<p><strong>(2) Capture the same data about your target markets and your existing customers.</strong></p>
-<p>With data about your target markets and your existing customers, you get obvious charts that look like this:</p>
-<p><img src="market_map1.png" class="img-fluid"></p>
-<p>The same chart can be produced for <strong>verticals</strong> <em>or</em> <strong>interest in product features</strong> <em>or</em> <strong>geographic regions</strong> <em>or</em> <strong>media audience</strong> and it can be modified to reflect cost to acquire a customer instead of scale.</p>
-<p>A slight variation of this chart can show the % of highly likely customers in a vertical vs.&nbsp;the % of customers in that vertical who know about you.</p>
-<p><strong>(3) Study the same dynamics across interviews, surveys, and quantitative data sets.</strong></p>
-<p>It is classically true that interviews explain “why” someone might want or love your product but when, where, why, or how. That said, there are lots of established techniques for bridging interviews, surveys, and product data – but it requires planned coordination.</p>
-<p>The payoff, of course, is that once you know what types of messaging consumers respond to (interviews), you can test those in your marketing material (experiments), and validate the impact on LTV (product data), and create feedback between techniques.</p>
-<p><strong>(4) Your navigation must support your means of locomotion.</strong></p>
-<p>The goal isn’t to change organizational behavior, it is to supercharge it.</p>
-<p>Sticking with the “seeing where to go” analogy, we can consider the market’s response to two devices that want to change how people see things: the Facebook Quest VR headset and the Apple Vision Pro.</p>
-<p>A strong signal that the Apple Vision Pro is succeeding is that people say they love using it for two specific activities: watching movies and reading email.</p>
-<p>Facebook burnt billions of dollars trying to get people to do new things with Quest headsets, exploring their metaverse or playing brand new games. Meanwhile, Apple seems to have triumphed by producing a device that improves everyday lives. If everyday Americans will dump money on a home theater system, it isn’t such a stretch for them to buy the Vision Pro to make the same experience better.</p>
-<p>Once people adopt the Apple Vision Pro for movies, or sports watching, or email, then the gateway opens to create new experiences. The same is true for growth feedback.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="science fiction,fantasy" data-listing-date-sort="1714622400000" data-listing-file-modified-sort="1714674992300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
+<div class="thumbnail">
+<p><a href="../reading/leviathan_wakes/index.html" class="no-external"></a></p><a href="../reading/leviathan_wakes/index.html" class="no-external">
+<p><img src="../reading/leviathan_wakes/leviathan_wakes_wikipedia.jpeg" class="thumbnail-image"></p>
+</a><p><a href="../reading/leviathan_wakes/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../reading/leviathan_wakes/index.html" class="no-external">Notes on <em>Leviathan Wakes</em></a>
+</h3>
+<div class="listing-subtitle">
+<a href="../reading/leviathan_wakes/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('science fiction'); return false;">
+science fiction
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('fantasy'); return false;">
+fantasy
+</div>
+</div>
+<div class="listing-description">
+<a href="../reading/leviathan_wakes/index.html" class="no-external">A science fiction novel by James S. A. Corey</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../reading/leviathan_wakes/index.html" class="no-external">
+<div class="listing-date">
+2 May 2024
+</div>
+<div class="listing-author">
+Alex Leeds
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

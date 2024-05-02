@@ -1,0 +1,15 @@
+---
+title: Reading
+listing:
+  categories: true
+  contents:
+  - '*.qmd'
+  feed: true
+  filter-ui: false
+  sort: date desc
+  sort-ui: false
+  type: default
+page-layout: full
+title-block-bannerrR: false
+---
+

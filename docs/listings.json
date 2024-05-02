@@ -12,5 +12,11 @@
       "/projects/some-fun-projects/index.html",
       "/projects/starting-lexicographa/index.html"
     ]
+  },
+  {
+    "listing": "/reading/index.html",
+    "items": [
+      "/reading/leviathan_wakes/index.html"
+    ]
   }
 ]

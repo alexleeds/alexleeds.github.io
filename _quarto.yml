@@ -18,7 +18,9 @@ website:
         text: WRITING
       - href: projects
         text: PROJECTS
-      - href: https://about.hellosleuth.com/
+      - href: reading
+        text: READING
+      - href: https://hellosleuth.com/
         text: SLEUTH
   page-footer:
     left: 'Made with <a href="https://quarto.org/">Quarto</a>'
