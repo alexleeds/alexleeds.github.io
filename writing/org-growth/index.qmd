@@ -7,19 +7,19 @@ categories:
 image: market_map1b.svg
 ---
 
-Two angles for thinking about organizational growth are *navigation* and *competition*. Navigation can refer to how an organization steers through its environment toward the promising opportunities. Competition is a bit more focused on the methods and strategy an organization uses to fight. 
+Two angles for thinking about organizational growth are *navigation* and *competition*. Navigation refers to how an organization steers through its environment toward promising opportunities. Competition more focused on the methods an organization uses to fight. 
 
-Competitive strategy might determine where an organization chooses to “go” in the long term. But I think navigation is an especially important consideration for fast growing organizations, and not as common as classic strategic analysis (five forces, flywheels, zero-to-one, etc).
+Competitive strategy might determine where an organization “goes” in the long term. But I think navigation is an essential focus for fast growing organizations, and not as common as classic strategic analysis (five forces, flywheels, zero-to-one, etc).
 
 When your product is better than the competition, you can get huge growth by exploiting your advantages to the hilt: growing into *open* territory. To do that, navigating requires a clear picture of the landscape, not competitive calculations. If you could only see the opportunity, then you would simply go there. And the difference of a few degrees in direction might be the difference between hitting a vein of gold or missing it completely. Or, more modestly, the benefit of shifting your worst 30% of ads to the performance of your best 30%.
 
-The first challenge of navigation is to be good at observing the environment. Therefore…
+We can think of organizational navigation as the challenge of a self-driving car: First, it needs to see and recognize the features of the environment. Therefore…
 
 ## Navigating in 2024
 
 To navigate places, you have to have good sensors. 
 
-For growth strategy, your sensors are “measures” of what potential customers want, what they learn or know about you (and respond to emotionally), and “where” they exist online and off. Most companies have some solid understanding of these but they don’t measure them well. 
+For growth strategy, your sensors are measures of what potential customers want, what they learn or know about you (and respond to emotionally), and “where” they exist online and off. Most companies have strong intuitions about these but they don’t always measure them well. 
 
 The techniques are pretty straightforward. They include:
 
@@ -29,11 +29,11 @@ These techniques (very) roughly use these data inputs:
 
 ![](methods_of_seeing_labeled.png)
 
-Most organizations use these techniques. But they miss three opportunities that are pretty hard to do:
+To excel with at these techniques, there are three steps that take a concerted effort.
 
 **(1) Gather this data on a regular cadence.**
 
-Certain “slow” processes might happen twice a year. Certain fast processes might happen every hour. But it is important to have predictability in these feedback loops so that people embed the information in their operations. These need to be really smooth: when people need the analysis, it should be at their fingertips.
+Certain “slow” measurements (e.g. interviews) might happen twice a year. Certain fast measurements might happen every hour. But it is important to have predictability in these feedback loops so that people embed the information in their operations. These need to be really smooth: when people need the analysis, it should be at their fingertips, if not automating organizational tactics directly.
 
 **(2) Capture the same data about your target markets and your existing customers**
 
