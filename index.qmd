@@ -18,7 +18,7 @@ about:
           url: https://www.instagram.com/xanleeds/
         - text: "{{< fa envelope >}} Email"
           url: mailto:alex.leeds+website@gmail.com
-image: img/alex_profile_photo_zoomed.jpg
+image: img/alex_profile_photo_zoomed_shrunk.jpg
 comments: false
 
 page-layout: full
