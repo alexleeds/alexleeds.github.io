@@ -7,9 +7,9 @@ categories:
 image: market_map1b.svg
 ---
 
-Two angles for thinking about organizational growth are *navigation* and *competition*. Navigation refers to how an organization steers through its environment toward promising opportunities. Competition more focused on the methods an organization uses to fight. 
+I think about organizational growth two two lenses: *navigation* and *competition*. Navigation refers to how an organization steers through its environment toward opportunities. Competition refers to the strategies and tactics an organization uses to fight. 
 
-Competitive strategy might determine where an organization “goes” in the long term. But I think navigation is an essential focus for fast growing organizations, and not as common as classic strategic analysis (five forces, flywheels, zero-to-one, etc).
+Competitive strategy might determine where an organization “goes” in the long term. But I think navigation is an essential focus for fast growing organizations, and not covered by classic strategic analysis (five forces, flywheels, zero-to-one, etc).
 
 When your product is better than the competition, you can get huge growth by exploiting your advantages to the hilt: growing into *open* territory. To do that, navigating requires a clear picture of the landscape, not competitive calculations. If you could only see the opportunity, then you would simply go there. And the difference of a few degrees in direction might be the difference between hitting a vein of gold or missing it completely. Or, more modestly, the benefit of shifting your worst 30% of ads to the performance of your best 30%.
 
