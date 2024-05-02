@@ -43,7 +43,7 @@ With data about your target markets and your existing customers, you get obvious
 
 ![](market_map1.png)
 
-The same chart can be produced for **verticals** *or* **interest in product features** *or* **geographic regions** *or* **media audience** and it can be modified to reflect cost to acquire a customer instead of scale.
+The same chart of Penetration vs. Promise be produced for **verticals** *or* **interest in product features** *or* **geographic regions** *or* **media audience** and it can be modified to reflect cost to acquire a customer instead of scale.
 
 A slight variation of this chart can show the % of highly likely customers in each vertical vs. the % of customers in each vertical who know about you (or have various perceptions of you). This can point to gaps.
 
