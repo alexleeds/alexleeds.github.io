@@ -26,6 +26,7 @@ website:
     left: 'Made with <a href="https://quarto.org/">Quarto</a>'
   twitter-card: true
   open-graph: true
+  google-analytics: 'G-55MDQLPS7F'
 
 format:
   html:
