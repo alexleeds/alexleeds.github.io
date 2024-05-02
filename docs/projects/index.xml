@@ -101,7 +101,7 @@ Debate visual under development.
 
 
 
-<p>I’m exploring methods for systematically discovering words in other languages for concepts we don’t have in English. These are both fun and useful, but mostly just fun. For instance:</p>
+<p>I’m exploring methods for systematically discovering words in other languages for concepts we don’t have in English. These are both fun and useful, but mostly just fun. <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">For instance</a>:</p>
 <p><em>Abbiocco</em> (in Italian, the sleepy feeling after eating a large meal), <a href="https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/"><em>verschlimbessern</em></a> (in German, to make something worse in a well-meaning attempt to make it better), <em>dépaysement</em> (in French, the mix of euphoria and disorientation of being in a foreign country), etc.</p>
 <p>I’m calling this mini-project <strong>lexicographa</strong>. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.</p>
 <p>There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised machine learning:</p>
@@ -113,8 +113,7 @@ Debate visual under development.
 <p>Nevertheless, the best place to start is to experiment. I’ll start with code that says “just show me words in French, Spanish, German, or Italian are distant from my English corpus and see what we find. Then we can refine how useful “distance” is represented.</p>
 <p>In other forms of natural language processing, it would be typical to use <a href="https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency">TF-IDF</a> (term frequency, inverse document frequency). The idea of TF-IDF is to find words that appear frequently inside some documents but not across all documents. The word “baseball” will appear many times in articles about baseball but not once in articles about other sports. Across news articles, “baseball” has a high TF-IDF and really is a useful guidepost.</p>
 <p>This does not work here. The types of words I’m looking for have a low term frequency and low document frequency. An intriguing word might appear just once in a text, and not often in an entire corpus.</p>
-<p>The supervised method begins with a <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">list of words that fit my objective</a>: abbiocco (the sleepy feeling after eating a large meal), <a href="https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/">verschlimbessern</a> (to make something worse in an attempt to make it better), dépaysement (the mix of euphoria and disorientation of being in a foreign country),<br>
-etc. And then explore the conditions that make hundreds of these words distant.</p>
+<p>The supervised method begins with a [list of words that fit my objective](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/, and then analyzes the conditions that make hundreds of these words interesting in order to uncover new ones.</p>
 <p>Supervized learning, however, tends to find exemplars that only fit the identified pattern. It isn’t very good for creativity - and creativity is what we want! Additionally, I’m not sure I can find more than a thousand of these words for supervised learning, which is very weak grounds for training in a problem with this much ambiguity.</p>
 <p>In any case, we need a corpus to analyze.</p>
 </section>

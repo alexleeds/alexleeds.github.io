@@ -9,7 +9,7 @@ categories: ["Universal lexicon", "Lexicographa", "Language", "AI"]
 image: Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg
 ---
 
-I'm exploring methods for systematically discovering words in other languages for concepts we don't have in English. These are both fun and useful, but mostly just fun. For instance: 
+I'm exploring methods for systematically discovering words in other languages for concepts we don't have in English. These are both fun and useful, but mostly just fun. [For instance](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/): 
 
 *Abbiocco* (in Italian, the sleepy feeling after eating a large meal), [*verschlimbessern*](https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/) (in German, to make something worse in a well-meaning attempt to make it better), *dépaysement* (in French, the mix of euphoria and disorientation of being in a foreign country), etc. 
 
@@ -31,8 +31,7 @@ In other forms of natural language processing, it would be typical to use [TF-ID
 
 This does not work here. The types of words I'm looking for have a low term frequency and low document frequency. An intriguing word might appear just once in a text, and not often in an entire corpus.
  
-The supervised method begins with a [list of words that fit my objective](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/): abbiocco (the sleepy feeling after eating a large meal), [verschlimbessern](https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/) (to make something worse in an attempt to make it better), dépaysement (the mix of euphoria and disorientation of being in a foreign country),  
-etc. And then explore the conditions that make hundreds of these words distant. 
+The supervised method begins with a [list of words that fit my objective](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/, and then analyzes the conditions that make hundreds of these words interesting in order to uncover new ones. 
 
 Supervized learning, however, tends to find exemplars that only fit the identified pattern. It isn’t very good for creativity - and creativity is what we want! Additionally, I’m not sure I can find more than a thousand of these words for supervised learning, which is very weak grounds for training in a problem with this much ambiguity.
 
