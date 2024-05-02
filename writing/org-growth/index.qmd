@@ -35,7 +35,7 @@ To excel with at these techniques, there are three steps that take a concerted e
 
 Certain “slow” measurements (e.g. interviews) might happen twice a year. Certain fast measurements might happen every hour. But it is important to have predictability in these feedback loops so that people embed the information in their operations. These need to be really smooth: when people need the analysis, it should be at their fingertips, if not automating organizational tactics directly.
 
-**(2) Capture the same data about your target markets and your existing customers**
+**(2) Capture the same data about your target markets and your existing customers.**
 
 With data about your target markets and your existing customers, you get obvious charts that look like this:
 

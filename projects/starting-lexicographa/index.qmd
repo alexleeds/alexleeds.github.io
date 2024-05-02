@@ -15,7 +15,7 @@ I'm exploring methods for systematically discovering words in other languages fo
 
 I’m calling this mini-project **lexicographa**. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.
 
-There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised learning in the discipline of machine learning:
+There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised machine learning:
 
 ### Far out or *far out*?
 
