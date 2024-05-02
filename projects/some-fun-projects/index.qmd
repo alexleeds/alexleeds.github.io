@@ -6,7 +6,7 @@ author:
     - name: Alex Leeds
 date: 2024-04-16
 categories: ["Universal lexicon", "AI debates", "AI chess", "Aethetic trends"]
-image: ai_debate_shrunk.jpg
+image: ai_debate_shrunk_cropped.jpg
 bibliography: references.bib
 ---
 
