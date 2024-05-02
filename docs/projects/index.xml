@@ -101,11 +101,13 @@ Debate visual under development.
 
 
 
-<p>I’m calling this mini-project <em>lexicographa</em>. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.</p>
-<p>There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised learning:</p>
-<section id="far-out-and-far-out" class="level3">
-<h3 class="anchored" data-anchor-id="far-out-and-far-out">Far out and <em>far out</em></h3>
-<p>In the unsupervised approach, I’ll begin by finding single words in European languages whose <a href="https://platform.openai.com/docs/guides/embeddings">AI text embeddings</a> locate them far from any word in English. This approach should fail at first. Among other things, distance metrics tend to break down as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn’t equate to being intriguingly distant in a few useful ones.</p>
+<p>I’m exploring methods for systematically discovering words in other languages for concepts we don’t have in English. These are both fun and useful, but mostly just fun. For instance:</p>
+<p><em>Abbiocco</em> (in Italian, the sleepy feeling after eating a large meal), <a href="https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/"><em>verschlimbessern</em></a> (in German, to make something worse in a well-meaning attempt to make it better), <em>dépaysement</em> (in French, the mix of euphoria and disorientation of being in a foreign country), etc.</p>
+<p>I’m calling this mini-project <strong>lexicographa</strong>. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.</p>
+<p>There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised learning in the discipline of machine learning:</p>
+<section id="far-out-or-far-out-man" class="level3">
+<h3 class="anchored" data-anchor-id="far-out-or-far-out-man">Far out or <em>far out, man</em>?</h3>
+<p>In the unsupervised approach, I’ll begin by finding single words in European languages whose <a href="https://platform.openai.com/docs/guides/embeddings">AI text embeddings</a> locate them far from any word in English. This approach should fail at first. Among other things, distance metrics in machine learning tend to get noisy as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn’t equate to being intriguingly distant in a few useful ones.</p>
 <p>To use the unsupervised approach, we will definitely have to zero in on useful dimensions for various types of words.</p>
 <p>Distance can also be misleading. If the AI text embeddings are like a map of language, we don’t want to find the middle of the ocean. We want words that are distinctive within the spheres they occupy, more like unusual foreign landmarks.</p>
 <p>Nevertheless, the best place to start is to experiment. I’ll start with code that says “just show me words in French, Spanish, German, or Italian are distant from my English corpus and see what we find. Then we can refine how useful “distance” is represented.</p>
