@@ -51,7 +51,7 @@ It is classically true that interviews explain “why” someone might want or l
 
 The payoff, of course, is that once you know what types of messaging consumers respond to (interviews), you can test those in your marketing material (experiments), and validate the impact on LTV (product data), and create feedback between techniques.
 
-**(4) Your navigation must support your means of locomotion.**
+**(4) Your navigation must support your locomotion.**
 
 The goal isn’t to change organizational behavior, it is to supercharge it.
 
