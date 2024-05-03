@@ -14,7 +14,7 @@ image: leviathan_wakes_wikipedia.jpeg
 
 I'll keep this vague to avoid spoilers:
 
-- This book was recommended by Dario Amodei, the CEO of Anthropic, in his [April 12, 2024 interview](https://www.nytimes.com/2024/04/12/opinion/ezra-klein-podcast-dario-amodei.html) with Ezra Klein.
+- [Leviathan Wakes](https://www.amazon.com/Leviathan-Wakes-James-S-Corey/dp/0316129089) was recommended by Dario Amodei, the CEO of Anthropic, in his [April 12, 2024 interview](https://www.nytimes.com/2024/04/12/opinion/ezra-klein-podcast-dario-amodei.html) with Ezra Klein.
 
 - It's no surprise that the novel was basis for an Amazon Prime TV series (which I haven't seen). It has propulsive storytelling and space opera visuals of the sort that would translate to the screen.
 
