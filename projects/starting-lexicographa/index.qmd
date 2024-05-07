@@ -9,9 +9,9 @@ categories: ["Universal lexicon", "Lexicographa", "Language", "AI"]
 image: Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009_Pic_01_wikipedia.jpg
 ---
 
-I'm exploring methods for systematically discovering words in other languages for concepts we don't have in English. These are both fun and useful, but mostly just fun. [For instance](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/): 
+I'm exploring methods for systematically discovering words in other languages for concepts we don't have in English. These are both fun and useful, but mostly just fun. 
 
-*Abbiocco* (in Italian, the sleepy feeling after eating a large meal), [*verschlimbessern*](https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/) (in German, to make something worse in a well-meaning attempt to make it better), *dépaysement* (in French, the mix of euphoria and disorientation of being in a foreign country), etc. 
+[For instance](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/): *Abbiocco* (in Italian, the sleepy feeling after eating a large meal), [*verschlimbessern*](https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/) (in German, to make something worse in a well-meaning attempt to make it better), *dépaysement* (in French, the mix of euphoria and disorientation of being in a foreign country), etc. 
 
 I’m calling this mini-project **lexicographa**. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.
 
@@ -21,9 +21,9 @@ There are two ways to go about the problem of finding useful words outside Engli
 
 In the unsupervised approach, I’ll begin by finding single words in European languages whose [AI text embeddings](https://platform.openai.com/docs/guides/embeddings) locate them far from any word in English. This approach should fail at first. Among other things, distance metrics in machine learning tend to get noisy as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn't equate to being intriguingly distant in a few useful ones.
 
-To use the unsupervised approach, we will definitely have to zero in on useful dimensions for various types of words.
-
 Distance can also be misleading. If the AI text embeddings are like a map of language, we don't want to find the middle of the ocean. We want words that are distinctive within the spheres they occupy, more like unusual foreign landmarks.
+
+To use the unsupervised approach, we will definitely have to zero in on useful dimensions for various types of words. We can probably cluster words by theme and reduce them to "important dimensions," and then look for atypical non-English words in each cluster.
 
 Nevertheless, the best place to start is to experiment. I’ll start with code that says “just show me words in French, Spanish, German, or Italian are distant from my English corpus and see what we find. Then we can refine how useful “distance” is represented.
 
@@ -31,9 +31,9 @@ In other forms of natural language processing, it would be typical to use [TF-ID
 
 This does not work here. The types of words I'm looking for have a low term frequency and low document frequency. An intriguing word might appear just once in a text, and not often in an entire corpus.
  
-The supervised method begins with a [list of words that fit my objective](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/, and then analyzes the conditions that make hundreds of these words interesting in order to uncover new ones. 
+By comparison, the supervised method begins with a [list of words that fit my objective](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/) and then analyzes the conditions that make hundreds of these words interesting in order to uncover new ones. 
 
-Supervized learning, however, tends to find exemplars that only fit the identified pattern. It isn’t very good for creativity - and creativity is what we want! Additionally, I’m not sure I can find more than a thousand of these words for supervised learning, which is very weak grounds for training in a problem with this much ambiguity.
+But I'm skeptical that I'll find enough examples for supervized learning to capture the nuance we want!
 
 In any case, we need a corpus to analyze.
 
@@ -43,6 +43,6 @@ One possibility would be to grab whole books in different languages from [Projec
 
 But as Hemmingway demonstrates, plain words often make for better storytelling. I'm not sure books are the best source.
 
-At first glance, the [Leipzig Corpora Collection](https://corpora.uni-leipzig.de/en) looks excellent. This database is built for linguistics research with words and sentences in 291 languages including Internet and news sites through 2023. It appears to do well for the types of colloquial phrases we want in this project.
+At first glance, the [Leipzig Corpora Collection](https://corpora.uni-leipzig.de/en) looks excellent. This database is built for linguistics research with words and sentences in 291 languages including Internet and news sites through 2023. It appears to do well for the types of colloquial phrases we would also like to consider.
 
-There are also historical data dumps from resources like Wikipedia, Reddit, and Twitter. But I think I’ll start with the Leipzig Corpora Collection and grow from there.
+There are also historical data dumps from resources like Wikipedia, Reddit, and Twitter. Twitter seems especially promising - but I’ll start with the Leipzig Corpora Collection and grow from there.
