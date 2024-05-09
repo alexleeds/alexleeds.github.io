@@ -43,9 +43,9 @@ With data about your target markets and your existing customers, you get obvious
 
 ![](market_map1.png)
 
-The same chart of Penetration vs. Promise be produced for **verticals** *or* **interest in product features** *or* **geographic regions** *or* **media audience** and it can be modified to reflect cost to acquire a customer instead of scale.
+The same chart of *penetration* vs. *promise* can be produced for **verticals** *or* **interest in product features** *or* **geographic regions** *or* **media audience** and it can be modified to consider marketing efficacy (CAC/LTV) in place of promise or scale.
 
-**Promise** can be modified to reflect achievable market value rather than customer count, of course. And **Penetration** can be explored on its own through a chart that shows the % of highly likely customers in each vertical vs. the % of customers in each vertical who know about you (or prefer you).
+Meanwhile, **penetration** can be explored on its own through a chart that shows the % of highly likely customers in each vertical vs. the % of customers in each vertical who know about you (or prefer you).
 
 **(3) Study the same dynamics across interviews, surveys, and quantitative data sets.**
 
