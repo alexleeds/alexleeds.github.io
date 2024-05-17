@@ -1,6 +1,6 @@
 ---
-title: Notes on *Leviathan Wakes*
-description: A science fiction novel by James S. A. Corey
+title: "*Leviathan Wakes* by James S. A. Corey"
+description: Just don't touch the ooze
 date: 2024-05-02
 categories:
 - science fiction
