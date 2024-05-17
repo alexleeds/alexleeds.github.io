@@ -20,18 +20,18 @@
 
 
 
-<p>These are a handful of toy projects that I’m working on in the next 12 months. This is a brand new website, so I’ll gradually post more content about them as I get around to it. Most of these projects use some form of AI because there is just so much opportunity for exciting work using AI methods and tools.</p>
+<p>These are a handful of toy projects that I’m working on in the next 12 months. This is a brand new website, so I’ll gradually post more content about them as I get around to it. Most of these mini projects use some form of AI because I’m curious to learn more about AI methods and tools.</p>
 <section id="a-universal-lexicon" class="level3">
 <h3 class="anchored" data-anchor-id="a-universal-lexicon">A universal lexicon</h3>
 <p>What useful, fun, or interesting words exist in other languages but not in English?</p>
 <p>Since the dawn of the Internet, people have published <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">lists of words like this</a>.</p>
-<p>We think in language, and so our vocabulary literally confines our ideas. I don’t have a strong desire to learn entire other languages right now, but I’m enthusiastic to expand the universe of words I can pull from <em>any</em> language.</p>
-<p>One approach for finding useful words is to get a bunch of bilingual (English+) speakers together and to ask them what is missing in English. But this is difficult to do comprehensively without a large time commitment by others or a large working group.</p>
-<p>Now, LLMs have produced a beautiful solution to this problem through text embeddings. We can simply locate words and phrases in other languages that are “distant” from English words in certain relevant dimensions and forms. It’s tricky to locate the patterns that specifically find useful and interesting words but very doable.</p>
+<p>We think in language, and so the limits of <a href="https://www.quora.com/If-a-person-is-fluent-in-multiple-languages-what-is-the-language-of-their-thoughts/answer/Chris-von-Csefalvay-3">our vocabulary create boundaries on our ideas</a>. I don’t have a strong desire to learn entire other languages right now, but I’m enthusiastic to expand the universe of words I can pull from <em>any</em> language.</p>
+<p>One approach for finding useful words is to get a bunch of bilingual (English+) speakers together and to ask them what is missing in English. But this is difficult to do comprehensively without a large time commitment by others.</p>
+<p>Now, LLMs have produced a beautiful solution to this problem through text embeddings. We can simply locate words and phrases in other languages that are “distant” from English words in certain relevant dimensions and forms. The specifics of making it work are tricky but very doable.</p>
 <p>Once we have relevant lists, I think there are a bunch of other minor challenges:</p>
 <ul>
-<li>Provide definitions, some appropriate grammar (for an English speaker), and examples to make this practically useful</li>
-<li>Organize the words - likely as in a thesaurus</li>
+<li>Provide definitions and grammar (for an English speaker) and examples of words in context to make this practically useful</li>
+<li>Organize the words in a thesaurus-like book</li>
 <li>As with all of these projects, open it up for others to contribute!</li>
 </ul>
 </section>
@@ -44,7 +44,7 @@ Debate visual under development.
 </figcaption>
 </figure>
 <!-- ![AI visual being built.](ai_visual_in_progress.jpg){#fig-source} -->
-<p>I recently hosted a live, in-person, spoken debate between OpenAI’s GPT-4 Turbo and Google’s Gemini Pro on the topic: “Standardized testing should be abolished.”</p>
+<p>I recently hosted a live and in-person (for the human audience) spoken debate between OpenAI’s GPT-4 Turbo and Google’s Gemini Pro on the topic: “Standardized testing should be abolished.”</p>
 <p>OpenAI was randomly assigned the affirmative position and Gemini was assigned the negative position. The debate had the following format.</p>
 <ol type="1">
 <li>Opening Statements (2 minutes each)</li>
@@ -53,32 +53,30 @@ Debate visual under development.
 <li>Conclusion (2 minutes)</li>
 </ol>
 <p>After the debate, the audience and the AIs judged the winner.</p>
-<p>These debates have a variety of fun technical problems: (1) How do we improve the responses AIs provide? For instance, they can search Internet references or use RAGs to retrieve the right material for a line of argument. (2) How do we turn AI responses into spoken audio? (text-to-speech) (3) How do we visualize the debate audio?</p>
+<p>These debates have a variety of fun technical problems: (1) How do we improve the responses AIs provide? For instance, they can search Internet references or use RAGs to retrieve and reference useful material? (2) How do we turn AI responses into spoken audio? (text-to-speech) (3) How do we visualize the debate audio?</p>
 <p>My <a href="https://github.com/alexleeds/ai-debates">current implementation of these</a> is extremely rough - just enough to run a debate that people truly enjoyed.</p>
 </section>
 <section id="trends-in-aesthetics" class="level3">
 <h3 class="anchored" data-anchor-id="trends-in-aesthetics">Trends in aesthetics</h3>
 <p>We love things that are slightly different in style from products we already know. This influences our preferences in every art form: clothing, music, food, software, etc.</p>
-<p>The corollary is also true. We dislike things that are too different. No matter what, rock music would not have been welcome in the 1700s.</p>
-<p>If you want to create something that people will love - aesthetically - you usually have three options:</p>
+<p>The corollary is also true. We dislike things that are too different. Rock music would not have been welcome in the 1700s.</p>
+<p>So if we want to create something that people will love - aesthetically - we usually have three options:</p>
 <ul>
-<li><p>Incremental Change: You can slowly push the limits of aesthetic preferences in new directions.</p></li>
-<li><p>Reversion: You can bring back a familiar style that is no longer current. This leads to well-known loops in aesthetics that often swing backward by ~20 to 30 years.</p></li>
-<li><p>Combination: You can take aesthetics that people already appreciate in one sphere and apply them to another. Styles in clothing might be extended to rugs, upholstery, etc.</p></li>
+<li><p>Incremental Change: We can slowly push the limits of aesthetic preferences in new directions.</p></li>
+<li><p>Reversion: We can bring back a familiar style that is no longer current. This leads to well-known loops in aesthetics that often swing backward by 20 to 50 years.</p></li>
+<li><p>Combination: We can take aesthetics that people already appreciate in one sphere and apply them to another. Styles in clothing might be extended to rugs, upholstery, etc.</p></li>
 </ul>
-<p>The fascinating thing about incremental trends in aesthetics, is that you might be able to see where they are going without being able to jump ahead to wherever they will be. People have to gradually adjust their preferences.</p>
-<p>The frequency of cuts in movies will get faster or slower. Songs will get louder or quieter. Foods in some cuisines might get spicier. But audiences today are not ready for the preference that will follow 10 years from now.</p>
-<p>I wonder if we can capture these changes in quantitative measures. How about…</p>
-<p>Frequency of cuts in moving making? Number of spoken words/minute in songs? Loudness of songs? Preferences of spiciness in certain cuisines?</p>
-<p>I’ve definitely seen articles about these patterns.</p>
-<p>What I’d like to explore, though, is to look at trends in color palettes and patterns in commercial clothing. Toward this end, I’m capturing images of clothes from hundreds of design clothing companies’ archived websites and using neural nets to explore broad patterns in the clothings’ color schemes.</p>
+<p>The fascinating thing about incremental trends in aesthetics is that you might be able to see where they are going without being able to create products that jump ahead to wherever they will be. People still have to gradually adjust their preferences.</p>
+<p>The frequency of cuts in movies will get faster or slower. Songs will get louder or quieter. Foods in some cuisines might get spicier. But audiences today are not ready for the preference that will follow 10 years from now. (These are not new observations, of course!)</p>
+<p>As a challenge for neural nets, I’d like to look at trends in color palettes and patterns in commercial clothing. I’ve been capturing images of clothes from hundreds of design clothing companies’ archived websites - and I’ll be curious to see what the patterns have been in the past, and see how well I can predict them in the future.</p>
+<p>This would be possible to do with color and shape, but to keep is simple, I’ll start with color.</p>
 </section>
 <section id="general-purpose-ai-chess" class="level3">
 <h3 class="anchored" data-anchor-id="general-purpose-ai-chess">General purpose AI chess</h3>
 <p>Since <a href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)">IBM Deep Blue</a> in the 1980s (and, of course, earlier), chess has been a fun proving ground for computer problem solving.</p>
-<p>I like testing the ability of generalist AI programs from Google, OpenAI, Anthropic, etc. to play chess because it isn’t something that naturally follows from the “provide the best next text” emphasis that was used to train these chat systems. They surely pick up chess data during training, but playing chess well is still a specialized problem. It requires memory, tactical, and strategic solutions that we think of as a distinct domain expertise.</p>
-<p>The other great thing about chess is that we have strong chess engines like <a href="https://stockfishchess.org/">Stockfish</a> that can be set for varying difficulty levels to allow us to test exactly how strong the AI programs currently are.</p>
-<p>I’ve tested how well OpenAI performs at chess against Stockfish. It was pretty impressive (~1900 rating). Over time, I want to track the improvements in AI performance, pit them against each other, and explore these AIs’ abilities to reason about their own chess moves.</p>
+<p>I’ve been testing the ability of OpenAI’s GPT 4.0 to play chess because it isn’t something that naturally follows from the “provide the best next text” emphasis that was used to train these generalist AI systems. They surely pick up chess data during training, but playing chess well is still a specialized problem, requiring memory, tactics, and strategy that we think of as a distinct area of expertise.</p>
+<p>The other great thing about chess is that we have strong chess engines like <a href="https://stockfishchess.org/">Stockfish</a> that test the limits of AI systems and handily beat them.</p>
+<p>GPT 4.0 was pretty impressive against Stockfish (~1900 rating). Over time, I’ll track the improvements of AI chess, pit different AIs against each other, and explore their ability to reason about their own chess moves.</p>
 
 
 </section>
@@ -101,28 +99,28 @@ Debate visual under development.
 
 
 
-<p>I’m exploring methods for systematically discovering words in other languages for concepts we don’t have in English. These are both fun and useful, but mostly just fun. <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">For instance</a>:</p>
-<p><em>Abbiocco</em> (in Italian, the sleepy feeling after eating a large meal), <a href="https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/"><em>verschlimbessern</em></a> (in German, to make something worse in a well-meaning attempt to make it better), <em>dépaysement</em> (in French, the mix of euphoria and disorientation of being in a foreign country), etc.</p>
+<p>I’m exploring methods for systematically discovering words in other languages for concepts we don’t have in English. These are both fun and useful, but mostly just fun.</p>
+<p><a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">For instance</a>: <em>Abbiocco</em> (in Italian, the sleepy feeling after eating a large meal), <a href="https://germanyinusa.com/2020/01/24/word-of-the-week-verschlimmbessern/"><em>verschlimbessern</em></a> (in German, to make something worse in a well-meaning attempt to make it better), <em>dépaysement</em> (in French, the mix of euphoria and disorientation of being in a foreign country), etc.</p>
 <p>I’m calling this mini-project <strong>lexicographa</strong>. A lexicographer is “someone who creates dictionaries,” so it seems fitting. The goal is to create a new dictionary (and thesaurus) that blurs the boundaries between English and other languages.</p>
 <p>There are two ways to go about the problem of finding useful words outside English, basically unsupervised and supervised machine learning:</p>
 <section id="far-out-or-far-out" class="level3">
 <h3 class="anchored" data-anchor-id="far-out-or-far-out">Far out or <em>far out</em>?</h3>
 <p>In the unsupervised approach, I’ll begin by finding single words in European languages whose <a href="https://platform.openai.com/docs/guides/embeddings">AI text embeddings</a> locate them far from any word in English. This approach should fail at first. Among other things, distance metrics in machine learning tend to get noisy as the number of dimensions goes up. And the number of dimensions in the the text embeddings that I’m using is pretty high - often over 1,500. Being distant in hundreds of small ways doesn’t equate to being intriguingly distant in a few useful ones.</p>
-<p>To use the unsupervised approach, we will definitely have to zero in on useful dimensions for various types of words.</p>
 <p>Distance can also be misleading. If the AI text embeddings are like a map of language, we don’t want to find the middle of the ocean. We want words that are distinctive within the spheres they occupy, more like unusual foreign landmarks.</p>
+<p>To use the unsupervised approach, we will definitely have to zero in on useful dimensions for various types of words. We can probably cluster words by theme and reduce them to “important dimensions,” and then look for atypical non-English words in each cluster.</p>
 <p>Nevertheless, the best place to start is to experiment. I’ll start with code that says “just show me words in French, Spanish, German, or Italian are distant from my English corpus and see what we find. Then we can refine how useful “distance” is represented.</p>
 <p>In other forms of natural language processing, it would be typical to use <a href="https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency">TF-IDF</a> (term frequency, inverse document frequency). The idea of TF-IDF is to find words that appear frequently inside some documents but not across all documents. The word “baseball” will appear many times in articles about baseball but not once in articles about other sports. Across news articles, “baseball” has a high TF-IDF and really is a useful guidepost.</p>
 <p>This does not work here. The types of words I’m looking for have a low term frequency and low document frequency. An intriguing word might appear just once in a text, and not often in an entire corpus.</p>
-<p>The supervised method begins with a [list of words that fit my objective](https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/, and then analyzes the conditions that make hundreds of these words interesting in order to uncover new ones.</p>
-<p>Supervized learning, however, tends to find exemplars that only fit the identified pattern. It isn’t very good for creativity - and creativity is what we want! Additionally, I’m not sure I can find more than a thousand of these words for supervised learning, which is very weak grounds for training in a problem with this much ambiguity.</p>
+<p>By comparison, the supervised method begins with a <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">list of words that fit my objective</a> and then analyzes the conditions that make hundreds of these words interesting in order to uncover new ones.</p>
+<p>But I’m skeptical that I’ll find enough examples for supervized learning to capture the nuance we want!</p>
 <p>In any case, we need a corpus to analyze.</p>
 </section>
 <section id="corpuses-to-dissect" class="level3">
 <h3 class="anchored" data-anchor-id="corpuses-to-dissect">Corpuses to dissect…</h3>
 <p>One possibility would be to grab whole books in different languages from <a href="https://www.gutenberg.org/">Project Gutenberg</a>. It would be easy to expand this project to see how different authors’ vocabularies vary and what words are distinctive not only by language but also by author.</p>
 <p>But as Hemmingway demonstrates, plain words often make for better storytelling. I’m not sure books are the best source.</p>
-<p>At first glance, the <a href="https://corpora.uni-leipzig.de/en">Leipzig Corpora Collection</a> looks excellent. This database is built for linguistics research with words and sentences in 291 languages including Internet and news sites through 2023. It appears to do well for the types of colloquial phrases we want in this project.</p>
-<p>There are also historical data dumps from resources like Wikipedia, Reddit, and Twitter. But I think I’ll start with the Leipzig Corpora Collection and grow from there.</p>
+<p>At first glance, the <a href="https://corpora.uni-leipzig.de/en">Leipzig Corpora Collection</a> looks excellent. This database is built for linguistics research with words and sentences in 291 languages including Internet and news sites through 2023. It appears to do well for the types of colloquial phrases we would also like to consider.</p>
+<p>There are also historical data dumps from resources like Wikipedia, Reddit, and Twitter. Twitter seems especially promising - but I’ll start with the Leipzig Corpora Collection and grow from there.</p>
 
 
 </section>

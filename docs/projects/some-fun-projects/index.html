@@ -70,6 +70,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-55MDQLPS7F"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-55MDQLPS7F', { 'anonymize_ip': true});
+</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-55MDQLPS7F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-55MDQLPS7F');
+</script>
 <script type="application/ld+json">
 {
   "@context":"http://www.schema.org",
@@ -97,7 +113,6 @@ ul.task-list li input[type="checkbox"] {
     links.forEach(link => {
       if (!link.href.includes(location.hostname)) {
         link.target = '_blank';
-        // Optional: Add rel="noopener noreferrer" for security reasons
         link.rel = 'noopener noreferrer';
       }
     });
@@ -144,7 +159,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">PROJECTS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://about.hellosleuth.com/"> 
+    <a class="nav-link" href="../../reading"> 
+<span class="menu-text">READING</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://hellosleuth.com/"> 
 <span class="menu-text">SLEUTH</span></a>
   </li>  
 </ul>
@@ -215,18 +234,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>These are a handful of toy projects that I’m working on in the next 12 months. This is a brand new website, so I’ll gradually post more content about them as I get around to it. Most of these projects use some form of AI because there is just so much opportunity for exciting work using AI methods and tools.</p>
+<p>These are a handful of toy projects that I’m working on in the next 12 months. This is a brand new website, so I’ll gradually post more content about them as I get around to it. Most of these mini projects use some form of AI because I’m curious to learn more about AI methods and tools.</p>
 <section id="a-universal-lexicon" class="level3">
 <h3 class="anchored" data-anchor-id="a-universal-lexicon">A universal lexicon</h3>
 <p>What useful, fun, or interesting words exist in other languages but not in English?</p>
 <p>Since the dawn of the Internet, people have published <a href="https://ihworld.com/news-blog/ih-blog/10-words-that-don-t-exist-in-english/">lists of words like this</a>.</p>
-<p>We think in language, and so our vocabulary literally confines our ideas. I don’t have a strong desire to learn entire other languages right now, but I’m enthusiastic to expand the universe of words I can pull from <em>any</em> language.</p>
-<p>One approach for finding useful words is to get a bunch of bilingual (English+) speakers together and to ask them what is missing in English. But this is difficult to do comprehensively without a large time commitment by others or a large working group.</p>
-<p>Now, LLMs have produced a beautiful solution to this problem through text embeddings. We can simply locate words and phrases in other languages that are “distant” from English words in certain relevant dimensions and forms. It’s tricky to locate the patterns that specifically find useful and interesting words but very doable.</p>
+<p>We think in language, and so the limits of <a href="https://www.quora.com/If-a-person-is-fluent-in-multiple-languages-what-is-the-language-of-their-thoughts/answer/Chris-von-Csefalvay-3">our vocabulary create boundaries on our ideas</a>. I don’t have a strong desire to learn entire other languages right now, but I’m enthusiastic to expand the universe of words I can pull from <em>any</em> language.</p>
+<p>One approach for finding useful words is to get a bunch of bilingual (English+) speakers together and to ask them what is missing in English. But this is difficult to do comprehensively without a large time commitment by others.</p>
+<p>Now, LLMs have produced a beautiful solution to this problem through text embeddings. We can simply locate words and phrases in other languages that are “distant” from English words in certain relevant dimensions and forms. The specifics of making it work are tricky but very doable.</p>
 <p>Once we have relevant lists, I think there are a bunch of other minor challenges:</p>
 <ul>
-<li>Provide definitions, some appropriate grammar (for an English speaker), and examples to make this practically useful</li>
-<li>Organize the words - likely as in a thesaurus</li>
+<li>Provide definitions and grammar (for an English speaker) and examples of words in context to make this practically useful</li>
+<li>Organize the words in a thesaurus-like book</li>
 <li>As with all of these projects, open it up for others to contribute!</li>
 </ul>
 </section>
@@ -239,7 +258,7 @@ Debate visual under development.
 </figcaption>
 </figure>
 <!-- ![AI visual being built.](ai_visual_in_progress.jpg){#fig-source} -->
-<p>I recently hosted a live, in-person, spoken debate between OpenAI’s GPT-4 Turbo and Google’s Gemini Pro on the topic: “Standardized testing should be abolished.”</p>
+<p>I recently hosted a live and in-person (for the human audience) spoken debate between OpenAI’s GPT-4 Turbo and Google’s Gemini Pro on the topic: “Standardized testing should be abolished.”</p>
 <p>OpenAI was randomly assigned the affirmative position and Gemini was assigned the negative position. The debate had the following format.</p>
 <ol type="1">
 <li>Opening Statements (2 minutes each)</li>
@@ -248,32 +267,30 @@ Debate visual under development.
 <li>Conclusion (2 minutes)</li>
 </ol>
 <p>After the debate, the audience and the AIs judged the winner.</p>
-<p>These debates have a variety of fun technical problems: (1) How do we improve the responses AIs provide? For instance, they can search Internet references or use RAGs to retrieve the right material for a line of argument. (2) How do we turn AI responses into spoken audio? (text-to-speech) (3) How do we visualize the debate audio?</p>
+<p>These debates have a variety of fun technical problems: (1) How do we improve the responses AIs provide? For instance, they can search Internet references or use RAGs to retrieve and reference useful material? (2) How do we turn AI responses into spoken audio? (text-to-speech) (3) How do we visualize the debate audio?</p>
 <p>My <a href="https://github.com/alexleeds/ai-debates">current implementation of these</a> is extremely rough - just enough to run a debate that people truly enjoyed.</p>
 </section>
 <section id="trends-in-aesthetics" class="level3">
 <h3 class="anchored" data-anchor-id="trends-in-aesthetics">Trends in aesthetics</h3>
 <p>We love things that are slightly different in style from products we already know. This influences our preferences in every art form: clothing, music, food, software, etc.</p>
-<p>The corollary is also true. We dislike things that are too different. No matter what, rock music would not have been welcome in the 1700s.</p>
-<p>If you want to create something that people will love - aesthetically - you usually have three options:</p>
+<p>The corollary is also true. We dislike things that are too different. Rock music would not have been welcome in the 1700s.</p>
+<p>So if we want to create something that people will love - aesthetically - we usually have three options:</p>
 <ul>
-<li><p>Incremental Change: You can slowly push the limits of aesthetic preferences in new directions.</p></li>
-<li><p>Reversion: You can bring back a familiar style that is no longer current. This leads to well-known loops in aesthetics that often swing backward by ~20 to 30 years.</p></li>
-<li><p>Combination: You can take aesthetics that people already appreciate in one sphere and apply them to another. Styles in clothing might be extended to rugs, upholstery, etc.</p></li>
+<li><p>Incremental Change: We can slowly push the limits of aesthetic preferences in new directions.</p></li>
+<li><p>Reversion: We can bring back a familiar style that is no longer current. This leads to well-known loops in aesthetics that often swing backward by 20 to 50 years.</p></li>
+<li><p>Combination: We can take aesthetics that people already appreciate in one sphere and apply them to another. Styles in clothing might be extended to rugs, upholstery, etc.</p></li>
 </ul>
-<p>The fascinating thing about incremental trends in aesthetics, is that you might be able to see where they are going without being able to jump ahead to wherever they will be. People have to gradually adjust their preferences.</p>
-<p>The frequency of cuts in movies will get faster or slower. Songs will get louder or quieter. Foods in some cuisines might get spicier. But audiences today are not ready for the preference that will follow 10 years from now.</p>
-<p>I wonder if we can capture these changes in quantitative measures. How about…</p>
-<p>Frequency of cuts in moving making? Number of spoken words/minute in songs? Loudness of songs? Preferences of spiciness in certain cuisines?</p>
-<p>I’ve definitely seen articles about these patterns.</p>
-<p>What I’d like to explore, though, is to look at trends in color palettes and patterns in commercial clothing. Toward this end, I’m capturing images of clothes from hundreds of design clothing companies’ archived websites and using neural nets to explore broad patterns in the clothings’ color schemes.</p>
+<p>The fascinating thing about incremental trends in aesthetics is that you might be able to see where they are going without being able to create products that jump ahead to wherever they will be. People still have to gradually adjust their preferences.</p>
+<p>The frequency of cuts in movies will get faster or slower. Songs will get louder or quieter. Foods in some cuisines might get spicier. But audiences today are not ready for the preference that will follow 10 years from now. (These are not new observations, of course!)</p>
+<p>As a challenge for neural nets, I’d like to look at trends in color palettes and patterns in commercial clothing. I’ve been capturing images of clothes from hundreds of design clothing companies’ archived websites - and I’ll be curious to see what the patterns have been in the past, and see how well I can predict them in the future.</p>
+<p>This would be possible to do with color and shape, but to keep is simple, I’ll start with color.</p>
 </section>
 <section id="general-purpose-ai-chess" class="level3">
 <h3 class="anchored" data-anchor-id="general-purpose-ai-chess">General purpose AI chess</h3>
 <p>Since <a href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)">IBM Deep Blue</a> in the 1980s (and, of course, earlier), chess has been a fun proving ground for computer problem solving.</p>
-<p>I like testing the ability of generalist AI programs from Google, OpenAI, Anthropic, etc. to play chess because it isn’t something that naturally follows from the “provide the best next text” emphasis that was used to train these chat systems. They surely pick up chess data during training, but playing chess well is still a specialized problem. It requires memory, tactical, and strategic solutions that we think of as a distinct domain expertise.</p>
-<p>The other great thing about chess is that we have strong chess engines like <a href="https://stockfishchess.org/">Stockfish</a> that can be set for varying difficulty levels to allow us to test exactly how strong the AI programs currently are.</p>
-<p>I’ve tested how well OpenAI performs at chess against Stockfish. It was pretty impressive (~1900 rating). Over time, I want to track the improvements in AI performance, pit them against each other, and explore these AIs’ abilities to reason about their own chess moves.</p>
+<p>I’ve been testing the ability of OpenAI’s GPT 4.0 to play chess because it isn’t something that naturally follows from the “provide the best next text” emphasis that was used to train these generalist AI systems. They surely pick up chess data during training, but playing chess well is still a specialized problem, requiring memory, tactics, and strategy that we think of as a distinct area of expertise.</p>
+<p>The other great thing about chess is that we have strong chess engines like <a href="https://stockfishchess.org/">Stockfish</a> that test the limits of AI systems and handily beat them.</p>
+<p>GPT 4.0 was pretty impressive against Stockfish (~1900 rating). Over time, I’ll track the improvements of AI chess, pit different AIs against each other, and explore their ability to reason about their own chess moves.</p>
 
 
 </section>
