@@ -10,7 +10,48 @@
 <atom:link href="https://alexleeds.com/writing/index.xml" rel="self" type="application/rss+xml"/>
 <description>Alex Leeds is a data scientist living in NYC</description>
 <generator>quarto-1.4.537</generator>
-<lastBuildDate>Thu, 02 May 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 May 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Seeming Inevitability of Chris Dixon’s Epic Failure</title>
+  <dc:creator>Alex Leeds</dc:creator>
+  <link>https://alexleeds.com/writing/chris-dixons-failure_1/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>If you ever wanted to watch someone fall in realtime from the absolute height of an exclusive financial field, the venture capitalist Chris Dixon seems to be a fascinating case.</p>
+<p>Chris was the 2022 leader of Forbes’s Midas List of best-performing VCs. His track record as a VC is <a href="https://www.forbes.com/sites/alexkonrad/2022/04/12/midas-list-chris-dixon-crypto-capitalist/?sh=3b6072d05209">consistently excellent</a>: Kickstarter, Pinterest, Stripe, Oculus! He topped the Midas List on the back of his early investment in Coinbase, an outstanding success despite its latest <a href="https://www.wsj.com/articles/sec-sues-coinbase-says-it-is-unregistered-broker-dealer-95ec0637">political travails</a>.</p>
+<p>Chris came to my attention in 2015 with his blog post, <a href="https://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network">“Come for the tool, stay for the network”</a>. It was such a great thesis about how Internet 2.0 companies like Instagram caught on: come for the camera filters, stay for the photo sharing. His lucid blogging was part of his claim to fame.</p>
+<p>So how did someone with so much good sense end up writing <a href="https://a16zcrypto.com/posts/article/blockchain-culture-computer-vs-casino/">bizarre stuff like this</a>? It reminds me of David French’s recent article, <a href="https://www.nytimes.com/2024/05/16/opinion/republican-partisan-world-view.html">“I was a Republican Partisan”</a>. David says that political conservatives,</p>
+<blockquote class="blockquote">
+<p>…created a parallel universe where Romney was leading, and many people at most senior levels of the campaign believed that mainstream polls were wrong and Romney would win — including, reportedly, even the candidate himself.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>I was in Boston at the Romney party on election night, and when Fox News called Ohio for Obama, there was a palpable sense of shock, followed almost immediately by denial. I remember fielding emails in the days and weeks after the election from angry Republicans who wondered, even then, if Obama had cheated.</p>
+</blockquote>
+<p>(I have to add the requisit caveat that groupthink is clearly a problem across the political spectrum.)</p>
+<p>Now, blockchains were supposed to provide the benefits of anonymity in record keeping (for economic or contractual exchange) with the resiliency of a distributed network. Yet, it turned out that: (1) Most people do not need or want 100% anonymity unless they have criminal intent. (2) It is easier and 100x faster to support anonymous authentication through other cryptographic technologies. And (3) while blockchains may be distributed, private companies aiming to profit from them are necessarily centralized, leading to central points of weakness and cascading failures.</p>
+<p>Chris’s writing shows the same disconnection from reality that David French described above. Chris tries to explain:</p>
+<blockquote class="blockquote">
+<p>Two distinct cultures are interested in blockchains. The first sees blockchains as a way to build new networks. I call this culture the computer because, at its core, it’s about blockchains powering a new computing movement.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The other culture is mainly interested in speculation and money-making. Those of this mindset see blockchains solely as a way to create new tokens for trading. I call this culture the casino because, at its core, it’s really just about gambling.</p>
+</blockquote>
+<p>Chris’s new computing movement has a record of zero successes and hundreds upon hundreds of failures. I am aware of zero - zero! - significant blockchain-focused companies that are not devoted to financial speculation. (If you have great examples otherwise, please let me know.) Right now, NFTs also fall in this category, for instance <a href="https://www.coindesk.com/consensus-magazine/2023/07/05/the-broke-ape-yacht-crash-lessons-for-justin-bieber-and-other-nft-collectors/">The Broke Ape Yacht Crash</a>. Even Coinbase, Chris’s greatest success in this arena, belongs to what he now calls “the culture of the casino.”</p>
+<p>Toward the end of the same blog post, Chris defends his vision for a new computing movement. He insists, “Blockchains provide a sensible organizational structure for networks.” The problem with this sentence is the word “sensible.” He can’t honestly write, “the best” or “one of the best.” And he is always strictly honest in every carefully chosen word he writes. Yet, how much confidence should we have in a technology whose leading advocate can only say it <em>would</em> be “sensible”?</p>
+<p>Chris still raised a $4.5B crypto fund in 2022. I’ll be watching closely to see how that plays out.</p>
+
+
+
+ ]]></description>
+  <category>blockchain</category>
+  <category>venture capital</category>
+  <guid>https://alexleeds.com/writing/chris-dixons-failure_1/</guid>
+  <pubDate>Sun, 19 May 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://alexleeds.com/writing/chris-dixons-failure_1/DALL_E_chris_dixon_falling.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Organizational Growth as a Navigation Problem</title>
   <dc:creator>Alex Leeds</dc:creator>
@@ -60,47 +101,6 @@
   <guid>https://alexleeds.com/writing/org-growth/</guid>
   <pubDate>Thu, 02 May 2024 04:00:00 GMT</pubDate>
   <media:content url="https://alexleeds.com/writing/org-growth/market_map1b.svg" medium="image" type="image/svg+xml"/>
-</item>
-<item>
-  <title>The Seeming Inevitability of Chris Dixon’s Epic Failure</title>
-  <dc:creator>Alex Leeds</dc:creator>
-  <link>https://alexleeds.com/writing/chris-dixons-failure_1/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>If you ever wanted to watch someone fall in realtime from the absolute height of an exclusive financial field, the venture capitalist Chris Dixon seems to be a fascinating case.</p>
-<p>Chris was the 2022 leader of Forbes’s Midas List of best-performing VCs. His track record as a VC is <a href="https://www.forbes.com/sites/alexkonrad/2022/04/12/midas-list-chris-dixon-crypto-capitalist/?sh=3b6072d05209">consistently excellent</a>: Kickstarter, Pinterest, Stripe, Oculus! He topped the Midas List on the back of his early investment in Coinbase, an outstanding success despite its latest <a href="https://www.wsj.com/articles/sec-sues-coinbase-says-it-is-unregistered-broker-dealer-95ec0637">political travails</a>.</p>
-<p>Chris came to my attention in 2015 with his blog post, <a href="https://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network">“Come for the tool, stay for the network”</a>. It was such a great thesis about how Internet 2.0 companies like Instagram caught on: come for the camera filters, stay for the photo sharing. His lucid blogging was part of his claim to fame.</p>
-<p>So how did someone with so much good sense end up writing <a href="https://a16zcrypto.com/posts/article/blockchain-culture-computer-vs-casino/">bizarre stuff like this</a>? It reminds me of David French’s recent article, <a href="https://www.nytimes.com/2024/05/16/opinion/republican-partisan-world-view.html">“I was a Republican Partisan”</a>. David says that political conservatives,</p>
-<blockquote class="blockquote">
-<p>…created a parallel universe where Romney was leading, and many people at most senior levels of the campaign believed that mainstream polls were wrong and Romney would win — including, reportedly, even the candidate himself.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>I was in Boston at the Romney party on election night, and when Fox News called Ohio for Obama, there was a palpable sense of shock, followed almost immediately by denial. I remember fielding emails in the days and weeks after the election from angry Republicans who wondered, even then, if Obama had cheated.</p>
-</blockquote>
-<p>(I have to add the requisit caveat that groupthink is clearly a problem across the political spectrum.)</p>
-<p>Now, blockchains were supposed to provide the benefits of anonymity in record keeping (for economic or contractual exchange) with the resiliency of a distributed network. Yet, it turned out that: (1) Most people do not need or want 100% anonymity unless they have criminal intent. (2) It is easier and 100x faster to support anonymous authentication through other cryptographic technologies. And (3) while blockchains may be distributed, private companies aiming to profit from them are necessarily centralized, leading to central points of weakness and cascading failures.</p>
-<p>Chris’s writing shows the same disconnection from reality that David French described above. Chris tries to explain:</p>
-<blockquote class="blockquote">
-<p>Two distinct cultures are interested in blockchains. The first sees blockchains as a way to build new networks. I call this culture the computer because, at its core, it’s about blockchains powering a new computing movement.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>The other culture is mainly interested in speculation and money-making. Those of this mindset see blockchains solely as a way to create new tokens for trading. I call this culture the casino because, at its core, it’s really just about gambling.</p>
-</blockquote>
-<p>Chris’s new computing movement has a record of zero successes and hundreds upon hundreds of failures. I am aware of zero - zero! - significant blockchain-focused companies that are not devoted to financial speculation. (If you have great examples otherwise, please let me know.) Right now, NFTs also fall in this category, for instance <a href="https://www.coindesk.com/consensus-magazine/2023/07/05/the-broke-ape-yacht-crash-lessons-for-justin-bieber-and-other-nft-collectors/">The Broke Ape Yacht Crash</a>. Even Coinbase, Chris’s greatest success in this arena, belongs to what he now calls “the culture of the casino.”</p>
-<p>Toward the end of the same blog post, Chris defends his vision for a new computing movement. He insists, “Blockchains provide a sensible organizational structure for networks.” The problem with this sentence is the word “sensible.” He can’t honestly write, “the best” or “one of the best.” And he is always strictly honest in every carefully chosen word he writes. Yet, how much confidence should we have in a technology whose leading advocate can only say it <em>would</em> be “sensible”?</p>
-<p>Chris raised a $4.5B crypto fund in 2022. I’ll be watching closely to see how that plays out.</p>
-
-
-
- ]]></description>
-  <category>blockchain</category>
-  <category>venture capital</category>
-  <guid>https://alexleeds.com/writing/chris-dixons-failure_1/</guid>
-  <pubDate>Fri, 19 Apr 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://alexleeds.com/writing/chris-dixons-failure_1/DALL_E_chris_dixon_falling.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Magical Skills</title>

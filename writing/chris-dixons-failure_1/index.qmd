@@ -1,6 +1,6 @@
 ---
 title: The Seeming Inevitability of Chris Dixon's Epic Failure
-description: Watching a failure from the peak of an financial industry
+description: Watching a fall from the peak of an financial industry
 date: 2024-05-19
 categories:
 - blockchain

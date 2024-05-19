@@ -16,10 +16,10 @@ website:
     right:
       - href: writing
         text: WRITING
-      - href: projects
-        text: PROJECTS
       - href: reading
         text: READING
+      - href: projects
+        text: PROJECTS
       - href: https://hellosleuth.com/
         text: SLEUTH
   page-footer:
@@ -32,51 +32,11 @@ format:
   html:
     theme:
       - cosmo
-      - custom.scss
+      - styles.scss
     toc: true
     toc_depth: 3
     toc_float: true
     toc_smooth_scroll: true
     toc_highlight: true
     fig-align: center
-    include-in-header:
-      text: |
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-55MDQLPS7F"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-55MDQLPS7F');
-        </script>
-        <script type='application/ld+json'>
-        {
-          "@context":"http://www.schema.org",
-          "@type":"Person",
-          "name":"Alex Leeds",
-          "jobTitle":"Data scientist",
-          "height":"72 inches",
-          "gender":"male",
-          "description":"Alex Leeds is a data scientist living in NYC.",
-          "url":"https://alexleeds.com",
-          "address":{
-            "@type":"PostalAddress",
-            "addressLocality":"New York",
-            "addressRegion":"NY",
-            "postalCode":"10021",
-            "addressCountry":"United States"
-          },
-          "birthDate":"1980-06-29",
-          "birthPlace":"New York, NY"
-        }
-        </script>
-        <script>
-          document.addEventListener('DOMContentLoaded', function () {
-            const links = document.querySelectorAll('a[href^="http"]');
-            links.forEach(link => {
-              if (!link.href.includes(location.hostname)) {
-                link.target = '_blank';
-                link.rel = 'noopener noreferrer';
-              }
-            });
-          });
-        </script>
+    include-in-header: header.html

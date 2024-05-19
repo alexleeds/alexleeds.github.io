@@ -1,0 +1,65 @@
+/* Ensure correct font-face and other styles */
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('fonts/RedHatText-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('fonts/RedHatText-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Petrona';
+    src: url('fonts/Petrona-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Petrona';
+    src: url('fonts/Petrona-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Petrona', sans-serif; /* Replace with the font you want for headlines */
+}
+
+.about .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.about .social-icons a {
+    font-size: 20px; /* Smaller icon size */
+    margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+    .about .social-icons {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background: white;
+        padding: 10px 0;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+
+    .about {
+        padding-bottom: 60px; /* Ensure space for the social icons */
+    }
+}
