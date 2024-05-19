@@ -1,7 +1,7 @@
 ---
 title: The Seeming Inevitability of Chris Dixon's Epic Failure
 description: Watching a failure from the peak of an financial industry
-date: 2024-04-19
+date: 2024-05-19
 categories:
 - blockchain
 - venture capital
