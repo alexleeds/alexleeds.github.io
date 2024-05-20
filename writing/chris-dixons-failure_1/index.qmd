@@ -20,7 +20,7 @@ So how did someone with so much good sense end up writing [stuff like this](http
 
 > I was in Boston at the Romney party on election night, and when Fox News called Ohio for Obama, there was a palpable sense of shock, followed almost immediately by denial. I remember fielding emails in the days and weeks after the election from angry Republicans who wondered, even then, if Obama had cheated.
 
-(I have to add the requisit caveat that groupthink is not unique to Republicans. Biden's re-election camapaign is reportedly making the exact same mistake right now.)
+(I have to add the requisit caveat that groupthink runs across the political spectrum. Biden's re-election camapaign is reportedly making the exact same mistake right now.)
 
 Blockchains were supposed to provide the benefits of anonymity in record keeping (for monetary exchange, contracts, or software apps) with the resiliency of a distributed network. Instead, it turned out that: (1) Most people do not need or want 100% anonymity unless they have criminal intent. (2) It is easier and 100x faster to support anonymous authentication through other cryptographic systems. And (3) while blockchains may be distributed, private companies aiming to profit from them are usually centralized, leading to central points of weakness and cascading failures.
 
