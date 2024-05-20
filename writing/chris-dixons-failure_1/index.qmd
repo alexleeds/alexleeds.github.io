@@ -1,6 +1,6 @@
 ---
-title: The Seeming Inevitability of Chris Dixon's Epic Failure
-description: Watching a fall from the peak of an financial industry
+title: Will Chris Dixon Fall from Grace?
+description: A fall from the peak of an financial industry
 date: 2024-05-19
 categories:
 - blockchain
@@ -8,30 +8,40 @@ categories:
 image: DALL_E_chris_dixon_falling.jpg
 ---
 
-If you ever wanted to watch someone fall in realtime from the absolute height of an exclusive financial field, the venture capitalist Chris Dixon seems to be a fascinating case. 
+If you ever wanted to observe someone fall from the absolute height of an exclusive financial field, the venture capitalist Chris Dixon seems to be an unusually visible case. 
 
-Chris was the 2022 leader of Forbes's Midas List of best-performing VCs. His track record as a VC is [consistently excellent](https://www.forbes.com/sites/alexkonrad/2022/04/12/midas-list-chris-dixon-crypto-capitalist/?sh=3b6072d05209): Kickstarter, Pinterest, Stripe, Oculus! He topped the Midas List on the back of his early investment in Coinbase, an outstanding success despite its latest [political travails](https://www.wsj.com/articles/sec-sues-coinbase-says-it-is-unregistered-broker-dealer-95ec0637).
+Dixon was the 2022 leader of Forbes's Midas List of best-performing VCs. His track record as a VC is [consistently excellent](https://www.forbes.com/sites/alexkonrad/2022/04/12/midas-list-chris-dixon-crypto-capitalist/?sh=3b6072d05209): Kickstarter, Pinterest, Stripe, Oculus! He topped the Midas List on the back of his early investment in Coinbase, an outstanding success despite its latest [political travails](https://www.wsj.com/articles/sec-sues-coinbase-says-it-is-unregistered-broker-dealer-95ec0637).
 
-Chris came to my attention in 2015 with his blog post, ["Come for the tool, stay for the network"](https://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network). It was such a great thesis about how Internet 2.0 companies like Instagram caught on: come for the camera filters, stay for the photo sharing. His lucid blogging was part of his claim to fame.
+Dixon came to my attention in 2015 with his blog post, ["Come for the tool, stay for the network"](https://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network). It was such a great thesis about how Internet 2.0 companies like Instagram caught on: come for the camera filters, stay for the photo sharing. His lucid blogging was part of his claim to fame. I greatly admire his work.
 
-So how did someone with so much good sense end up writing [bizarre stuff like this](https://a16zcrypto.com/posts/article/blockchain-culture-computer-vs-casino/)? It reminds me of David French's recent article, ["I was a Republican Partisan"](https://www.nytimes.com/2024/05/16/opinion/republican-partisan-world-view.html). David says that political conservatives,
+So how did someone with so much good sense end up writing [stuff like this](https://a16zcrypto.com/posts/article/blockchain-culture-computer-vs-casino/)? It reminds me of David French's recent article, ["I was a Republican Partisan"](https://www.nytimes.com/2024/05/16/opinion/republican-partisan-world-view.html). During Romney's 2012 presidential campaign, David says that political conservatives...
 
-> ...created a parallel universe where Romney was leading, and many people at most senior levels of the campaign believed that mainstream polls were wrong and Romney would win — including, reportedly, even the candidate himself.
+> Created a parallel universe where Romney was leading, and many people at most senior levels of the campaign believed that mainstream polls were wrong and Romney would win — including, reportedly, even the candidate himself.
 
 > I was in Boston at the Romney party on election night, and when Fox News called Ohio for Obama, there was a palpable sense of shock, followed almost immediately by denial. I remember fielding emails in the days and weeks after the election from angry Republicans who wondered, even then, if Obama had cheated.
 
-(I have to add the requisit caveat that groupthink is clearly a problem across the political spectrum.)
+(I have to add the requisit caveat that groupthink is not unique to Republicans. Biden's re-election camapaign is reportedly making the exact same mistake right now.)
 
-Now, blockchains were supposed to provide the benefits of anonymity in record keeping (for economic or contractual exchange) with the resiliency of a distributed network. Yet, it turned out that: (1) Most people do not need or want 100% anonymity unless they have criminal intent. (2) It is easier and 100x faster to support anonymous authentication through other cryptographic technologies. And (3) while blockchains may be distributed, private companies aiming to profit from them are necessarily centralized, leading to central points of weakness and cascading failures.
+Blockchains were supposed to provide the benefits of anonymity in record keeping (for monetary exchange, contracts, or software apps) with the resiliency of a distributed network. Instead, it turned out that: (1) Most people do not need or want 100% anonymity unless they have criminal intent. (2) It is easier and 100x faster to support anonymous authentication through other cryptographic systems. And (3) while blockchains may be distributed, private companies aiming to profit from them are usually centralized, leading to central points of weakness and cascading failures.
 
-Chris's writing shows the same disconnection from reality that David French described above. Chris tries to explain:
+Dixon's writing shows the same disconnection from reality that David French described above. Dixon tries to explain:
 
 > Two distinct cultures are interested in blockchains. The first sees blockchains as a way to build new networks. I call this culture the computer because, at its core, it’s about blockchains powering a new computing movement.
 
 > The other culture is mainly interested in speculation and money-making. Those of this mindset see blockchains solely as a way to create new tokens for trading. I call this culture the casino because, at its core, it’s really just about gambling.
 
-Chris's new computing movement has a record of zero successes and hundreds upon hundreds of failures. I am aware of zero - zero! - significant blockchain-focused companies that are not devoted to financial speculation. (If you have great examples otherwise, please let me know.) Right now, NFTs also fall in this category, for instance [The Broke Ape Yacht Crash](https://www.coindesk.com/consensus-magazine/2023/07/05/the-broke-ape-yacht-crash-lessons-for-justin-bieber-and-other-nft-collectors/). Even Coinbase, Chris's greatest success in this arena, belongs to what he now calls "the culture of the casino."
+This sounds a lot like a political campaign in denial about the polls. Coinbase, Dixon's greatest success in this arena, belongs to "the culture of the casino." 
 
-Toward the end of the same blog post, Chris defends his vision for a new computing movement. He insists, "Blockchains provide a sensible organizational structure for networks." The problem with this sentence is the word "sensible." He can't honestly write, "the best" or "one of the best." And he is always strictly honest in every carefully chosen word he writes. Yet, how much confidence should we have in a technology whose leading advocate can only say it *would* be "sensible"?
+A tool powering a new computing movement should support the foundations of computing itself: fast and slow data storage, data processing, data transport, software services, and instrumentation. Blockchains are - by definition - inefficient at every one of these. The distributed philosophy behind their form makes them a permanently inferior solution compared to a more direct implementation.
 
-Chris still raised a $4.5B crypto fund in 2022. I'll be watching closely to see how that plays out.
+Molly White says in [her review](https://www.citationneeded.news/review-read-write-own-by-chris-dixon/) of Dixon's new book, [*Read Write Own*](https://readwriteown.com/):
+
+> Throughout the entire book, Dixon fails to identify a single blockchain project that has successfully provided a non-speculative service at any kind of scale. The closest he ever comes is when he speaks of how "for decades, technologists have dreamed of building a grassroots internet access provider". He describes one project that "got further than anyone else": Helium. He's right, as long as you ignore the fact that Helium was providing LoRaWAN, not Internet, that by the time he was writing his book Helium hotspots had long since passed the phase where they might generate even enough tokens for their operators to merely break even, and that the network was pulling in somewhere around $1,150 in usage fees a month despite the company being valued at $1.2 billion. Oh, and that the company had widely lied to the public about its supposed big-name clients, and that its executives have been accused of hoarding the project's token to enrich themselves. But hey, a16z sunk millions into Helium (a fact Dixon never mentions), so might as well try to drum up some new interest!
+
+Great NYC companies like [Ava Labs](https://www.avalabs.org/) that theoretically provide a platform for decentralized applications are - actually and necessarily - touting their applications like "an NFT and crypto wallet extension" and an "asset wallet." Though NFTs have gone the way of [tulips](https://en.wikipedia.org/wiki/Tulip_mania) (see [The Broke Ape Yacht Crash](https://www.coindesk.com/consensus-magazine/2023/07/05/the-broke-ape-yacht-crash-lessons-for-justin-bieber-and-other-nft-collectors/)).
+
+As of May 2024, the value of the cash in cryptocurrencies was estimated to be /$2.5 trillion. That is an attractive number. But break it down and we see: "1. Bitcoin (BTC) · $1.21 trillion ; 2. Ethereum (ETH) · $369 billion ; 3. Tether (USDT) · $110 billion ; 4. BNB (BNB) · $85 billion..." The dollars are crowding into Bitcoin, the first-generation blockchain product with the least utility, because pure speculation is the primary game.
+
+Dixon insists on his blog, "Blockchains provide a sensible organizational structure for networks." The problem with this sentence is the word "sensible." He can't honestly write, "the best" or "one of the best." And he is always incredibly precise with his choice of words. Yet, how much confidence should we have in a technology whose leading advocate can only say it would be "sensible"?
+
+Chris still raised a $4.5B crypto fund in 2022. I'll be extremely curious to see how that plays out.
