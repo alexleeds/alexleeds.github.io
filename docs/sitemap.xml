@@ -2,74 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alexleeds.com/writing/index.html</loc>
-    <lastmod>2024-04-13T18:32:14.911Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/alexleeds.github.io-env/lib/python3.12/site-packages/pandas/tests/indexes/datetimes/test_indexing.html</loc>
-    <lastmod>2024-04-11T22:48:44.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/alexleeds.github.io-env/lib/python3.12/site-packages/pandas/tests/indexes/period/test_constructors.html</loc>
-    <lastmod>2024-04-11T22:48:44.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/alexleeds.github.io-env/lib/python3.12/site-packages/pyzmq-25.1.2.dist-info/AUTHORS.html</loc>
-    <lastmod>2024-04-11T22:48:40.392Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/index.html</loc>
-    <lastmod>2024-05-19T21:48:49.097Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/projects/some-fun-projects/index.html</loc>
-    <lastmod>2024-05-07T20:18:58.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/disclaimer/index.html</loc>
-    <lastmod>2024-04-12T00:49:47.363Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/projects/index.html</loc>
-    <lastmod>2024-04-16T13:44:59.388Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/alexleeds.github.io-env/lib/python3.12/site-packages/numpy/random/LICENSE.html</loc>
-    <lastmod>2024-04-11T22:48:41.919Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/alexleeds.github.io-env/lib/python3.12/site-packages/matplotlib/backends/web_backend/nbagg_uat.html</loc>
-    <lastmod>2024-04-11T22:48:48.048Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/alexleeds.github.io-env/lib/python3.12/site-packages/pandas/tests/indexes/period/test_indexing.html</loc>
-    <lastmod>2024-04-11T22:48:44.980Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/writing/magical-skills/index.html</loc>
-    <lastmod>2024-05-02T17:26:24.677Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alexleeds.com/projects/starting-lexicographa/index.html</loc>
-    <lastmod>2024-05-19T21:19:51.571Z</lastmod>
+    <lastmod>2026-10-10T20:48:28.849Z</lastmod>
   </url>
   <url>
     <loc>https://alexleeds.com/writing/org-growth/index.html</loc>
-    <lastmod>2024-05-09T15:13:29.144Z</lastmod>
+    <lastmod>2026-10-10T20:48:28.850Z</lastmod>
   </url>
   <url>
-    <loc>https://alexleeds.com/reading/leviathan_wakes/index.html</loc>
-    <lastmod>2024-05-17T18:47:56.209Z</lastmod>
+    <loc>https://alexleeds.com/index.html</loc>
+    <lastmod>2026-10-10T21:13:18.543Z</lastmod>
   </url>
   <url>
-    <loc>https://alexleeds.com/reading/index.html</loc>
-    <lastmod>2024-05-02T17:29:14.963Z</lastmod>
+    <loc>https://alexleeds.com/projects/starting-lexicographa/index.html</loc>
+    <lastmod>2026-10-10T20:48:28.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alexleeds.com/disclaimer/index.html</loc>
+    <lastmod>2026-10-10T20:48:28.749Z</lastmod>
   </url>
   <url>
     <loc>https://alexleeds.com/reading/table_for_two/index.html</loc>
-    <lastmod>2024-05-17T18:55:57.358Z</lastmod>
+    <lastmod>2026-10-10T20:48:28.845Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alexleeds.com/reading/index.html</loc>
+    <lastmod>2026-10-10T20:48:28.845Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alexleeds.com/reading/leviathan_wakes/index.html</loc>
+    <lastmod>2026-10-10T20:48:28.845Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alexleeds.com/projects/some-fun-projects/index.html</loc>
+    <lastmod>2026-10-10T20:48:28.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alexleeds.com/projects/index.html</loc>
+    <lastmod>2026-10-10T20:48:28.841Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alexleeds.com/writing/magical-skills/index.html</loc>
+    <lastmod>2026-10-10T20:48:28.849Z</lastmod>
   </url>
   <url>
     <loc>https://alexleeds.com/writing/chris-dixons-failure_1/index.html</loc>
-    <lastmod>2024-05-20T15:55:48.170Z</lastmod>
+    <lastmod>2026-10-10T20:48:28.849Z</lastmod>
   </url>
 </urlset>

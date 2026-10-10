@@ -20,7 +20,7 @@ website:
         text: READING
       - href: projects
         text: PROJECTS
-      - href: https://hellosleuth.com/
+      - href: https://about.hellosleuth.com/
         text: SLEUTH
   page-footer:
     left: 'Made with <a href="https://quarto.org/">Quarto</a>'
