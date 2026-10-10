@@ -27,6 +27,8 @@ page-layout: full
 
 I'm a data scientist who explores consumer behavior. I use a mix of computationally intensive methods, experiments, and human feedback to refine growth tactics: product/feature selection, ads, pricing, conversion, and market segmentation.
 
+I currently work at [Ramp](https://ramp.com/) as a Staff Applied Scientist. I launched the foundational machine learning models Ramp uses to evaluate prospects for sales and marketing; I created systems that match customers to specific Ramp products and features; and recently, built the contextual bandit model driving millions of our in-app recommendations. I lead a small but mighty team of two other expert data problem solvers.
+
 Until April 2024, I was the CEO and Co-founder of [Sleuth](https://about.hellosleuth.com/). Sleuth was an app and website that provided running feedback to parents about their kids’ development using machine learning and data covering 250 topics. As part of this work, more than 60,000 parents contributed 1.25 million answers between 2022 and 2023. 
 
 Before Sleuth, I managed data science teams at [Squarespace](https://www.squarespace.com/) and One Zero Capital and was a Data Scientist in Residence at [IDEO](https://www.ideo.com/). I have a BA from Yale University in Political Science and a PhD in a mix of economics, statistics, and applied psychology from Wharton Business School.
